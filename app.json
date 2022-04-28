@@ -64,7 +64,7 @@
         "required": false
       },
       "DURATION_LIMIT": {
-        "description": "duration limit, defsult is 60",
+        "description": "duration limit, default is 60",
         "value": "",
         "required": false
       },
