@@ -40,7 +40,7 @@ def stream_markup(_, videoid):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["Join Group"], url=f"https://t.me/english_learning_group_vc"
             ),
         ],
         [
