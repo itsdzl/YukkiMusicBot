@@ -73,6 +73,76 @@
         "value": "",
         "required": true
       },
+      "SUPPORT_GROUP": {
+        "description": "support group use https at first",
+        "value": "https://t.me/distanfriends",
+        "required": false
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "ch",
+        "value": "https://t.me/beauthink",
+        "required": false
+      },
+      "SPOTIFY_CLIENT_ID": {
+        "description": "spotify",
+        "value": "06e4404110ae4341b6c8492d6011330f",
+        "required": false
+      },
+      "SPOTIFY_CLIENT_SECRET": {
+        "description": "dzmusic",
+        "value": "f18f0175d0e94ba7b2e3be6015bd9c12",
+        "required": false
+      },
+      "CLEANMODE_MINS": {
+        "description": "dzmusic",
+        "value": "180",
+        "required": false
+      },
+      "START_IMG_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
+      "PLAYLIST_IMG_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
+      "GLOBAL_IMG_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
+      "STATS_IMG_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
+      "TELEGRAM_AUDIO_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
+      "TELEGRAM_VIDEO_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
+      "STREAM_IMG_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
+      "SOUNCLOUD_IMG_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
+      "YOUTUBE_IMG_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
         "value": "https://github.com/TeamYukki/YukkiMusicBot",
