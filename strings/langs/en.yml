@@ -76,7 +76,7 @@ admin_34 : "Failed to seek the current stream."
 # Start
 start_1 : "Thanks for Having me to {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
 start_2 : "Hello, My name is {0}.\n\nI'm a Vc Streaming bot Telegram with some useful features. Supporting platforms like Youtube, Spotify, Resso, AppleMusic , Soundcloud etc.\n\nYou can see how to use this bot on button below."
-start_3 : "Welcome To {0}\n\nplease make me adming with full permission.\n\nAdd Manually Assistant if assistant cannot auto join.\nAssistant Username:- @{1}\nAssistant ID:- {2}"
+start_3 : "Welcome To {0}\n\nplease make me admin with full permission.\n\nAdd Manually Assistant if assistant cannot auto join.\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
 start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** to **supergroup** and then add me back.\n\n**How to make supergroup?**\n✅ Make your group's chat history **visible** once."
@@ -205,7 +205,7 @@ lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "{0} is working good with a ping of `{1}` ms.\n\nBot's uptime is {2} and has used a total of {3} server's storage. Cpu load is about {4} with a consumption of {5} Ram. Py-Tgcalls client is also having a good ping of `{6}` ms."
+ping_2 : "{0} status.\n\n⚡Ping! : `{1}` ms\nBot uptime : {2} \nServer's storage : {3} \nCPU : {4} \nRAM : {5} \nPy-Tgcalls client ping : `{6}` ms."
 
 
 # Song
@@ -243,7 +243,7 @@ BACK_BUTTON : "«ʙᴀᴄᴋ"
 UNBAN_BUTTON : "• ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ"
 
 #Lyrics
-L_B_1 : "• Checkout Lyrics Now"
+L_B_1 : "• ɢᴇᴛ ʟʏʀɪᴄs ɴᴏᴡ​"
 
 # Start
 S_B_1 : "ᴄᴏᴍᴍᴀɴᴅs"
@@ -301,35 +301,35 @@ ST_B_10 : "{0} High Quality Audio"
 ST_B_11 : "{0} Low Quality Video"
 ST_B_12 : "{0} Medium Quality Video"
 ST_B_13 : "{0} High Quality Video"
-ST_B_14 : "✅ Enabled"
-ST_B_15 : "❌ Disabled"
-ST_B_16 : "👤 Admins"
-ST_B_17 : "👥 Everyone"
-ST_B_18 : "📋 Authorized Users Lists"
-ST_B_19 : "🔎 Search Mode"
-ST_B_20 : "✅ Direct"
-ST_B_21 : "✅ Inline"
-ST_B_22 : "👨‍⚖️ Admin Commands"
-ST_B_23 : "🏘 Group"
-ST_B_24 : "🏷 Channel"
-ST_B_25 : "🫂 Play Type"
-ST_B_26 : "🗑 Command Clean"
-ST_B_27 : "🧑‍🚀 Suggestion Mode"
+ST_B_14 : "✓ ᴇɴᴀʙʟᴇᴅ​"
+ST_B_15 : "✗ ᴅɪsᴀʙʟᴇᴅ​"
+ST_B_16 : "ᴀᴅᴍɪɴ ᴏɴʟʏ​"
+ST_B_17 : "ᴇᴠᴇʀʏᴏɴᴇ​"
+ST_B_18 : "ᴀᴜᴛʜᴏʀɪᴢᴇᴅ ᴜsᴇʀs ʟɪsᴛs​"
+ST_B_19 : "sᴇᴀʀᴄʜ ᴍᴏᴅᴇ​"
+ST_B_20 : "✓ ᴅɪʀᴇᴄᴛ"
+ST_B_21 : "✓ ɪɴʟɪɴᴇ"
+ST_B_22 : "ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ"
+ST_B_23 : "🏘 ɢʀᴏᴜᴘ"
+ST_B_24 : "🏷 ᴄʜᴀɴɴᴇʟ​"
+ST_B_25 : "ᴘʟᴀʏ ᴛʏᴘᴇ"
+ST_B_26 : "✗ ᴄᴏᴍᴍᴀɴᴅ ᴄʟᴇᴀɴ​"
+ST_B_27 : " sᴜɢɢᴇsᴛɪᴏɴ ᴍᴏᴅᴇ"
 
 #Song
-SG_B_1 : "↗️ Open Private Chat"
-SG_B_2 : "🔊 Audio"
-SG_B_3 : "🎥 Video"
+SG_B_1 : "ᴏᴘᴇɴ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ​"
+SG_B_2 : "ɢᴇᴛ ᴀᴜᴅɪᴏ"
+SG_B_3 : "ɢᴇᴛ ᴠɪᴅᴇᴏ"
 
 #Stats
-SA_B_1 : "📢 Top 10 Chat"
-SA_B_2 : "🔢 Top 10 Tracks"
-SA_B_3 : "🧛 Top 10 Users"
-SA_B_4 : "🏷 Top 10 Here"
-SA_B_5 : "💡 Overall Stats"
-SA_B_6 : "👤 User Stats"
-SA_B_7 : "🔢 Global Top 10 Stats"
-SA_B_8 : "🤖 Bot Stats"
+SA_B_1 : "ᴛᴏᴘ 10 ᴄʜᴀᴛ"
+SA_B_2 : "ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
+SA_B_3 : "ᴛᴏᴘ 10 ᴜsᴇʀs"
+SA_B_4 : "ᴛᴏᴘ 10 Here"
+SA_B_5 : "ᴏᴠᴇʀᴀʟʟ​ sᴛᴀᴛs"
+SA_B_6 : "ᴜsᴇʀ sᴛᴀᴛs​"
+SA_B_7 : "ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 sᴛᴀᴛs​"
+SA_B_8 : "ʙᴏᴛ​ sᴛᴀᴛs"
 
 #Queue
 QU_B_1 : "📑 Queued List"
