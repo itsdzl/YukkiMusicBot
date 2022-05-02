@@ -93,6 +93,11 @@
         "value": "f18f0175d0e94ba7b2e3be6015bd9c12",
         "required": false
       },
+      "PING_IMG_URL": {
+        "description": "dzmusic",
+        "value": "",
+        "required": false
+      },
       "CLEANMODE_MINS": {
         "description": "dzmusic",
         "value": "180",
