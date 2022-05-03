@@ -149,24 +149,24 @@ async def start_comm(client, message: Message, _):
             searched_text = f"""
 🔍__**Video Track Information**__
 
-❇️**Title:** {title}
+ᴥ **Title:** {title}
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
-🔗**Video Link:** [Link]({link})
+ᴥ **Duration:** {duration} Mins
+ᴥ **Views:** `{views}`
+ᴥ **Published Time:** {published}
+ᴥ **Channel Name:** {channel}
+ᴥ **Channel Link:** [Visit From Here]({channellink})
+ᴥ **Video Link:** [Link]({link})
 
 ⚡️ __Searched Powered By {config.MUSIC_BOT_NAME}__"""
             key = InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🎥 Watch ", url=f"{link}"
+                            text="•ᴡᴀᴛᴄʜ•", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="🔄 Close", callback_data="close"
+                            text="• ᴄʟᴏsᴇ", callback_data="close"
                         ),
                     ],
                 ]
