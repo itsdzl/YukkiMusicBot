@@ -46,6 +46,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
     )
+    else:
         if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons.append(
             [
