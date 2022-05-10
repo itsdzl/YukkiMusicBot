@@ -77,14 +77,14 @@ admin_34 : "Failed to seek the current stream."
 start_1 : "Thanks for Having me to {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
 start_2 : "✨ Welcome!\n\n💡 {0} Is A Telegram Streaming Vc Bot, Allowed To Play Any Music And Video On Your Vc Group\n\n🔖 With Supporting Platform Youtube, Spotify, Resso, AppleMusic, and Soundloud.\n\n📚 Tap The Button Below To See How To Use This Bot ❓"
 start_3 : "Welcome To {0}\n\nplease make me admin with full permission.\n\nAdd Manually Assistant if assistant cannot auto join.\nAssistant Username:- @{1}\nAssistant ID:- {2}"
-start_4 : "{0}'s Owner[{1}] has just joined your chat."
-start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
+start_4 : "[{1}], Owner {0}'s just joined the group chat."
+start_5 : "A member of {0}'s Sudo User[{1}] has just joined the group chat."
 start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** to **supergroup** and then add me back.\n\n**How to make supergroup?**\n✅ Make your group's chat history **visible** once."
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "Click on the buttons below for more information. If you're facing any problem in command you can contact my bot owner and ask him.\n\nAll commands can be used with: /"
-help_2 : "Contact me in PM for help."
+help_1 : "💡 Click the buttons below for more information. If you're facing any problem in command you can contact my bot owner and ask him.\n\n📍 All commands, only can be used with: /"
+help_2 : "✧ Click the buttons below. ✧"
 
 # Settings
 setting_1 : "⚙️ **Music Bot Settings**\n\n🖇**Group:** {0}\n🔖**Group ID:** `{1}`\n\n💡**Choose the function buttons from below which you want to edit or change.**"
@@ -205,7 +205,7 @@ lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "{0} status.\n\n⚡Ping! : `{1}` ms\nBot uptime : {2} \nServer's storage : {3} \nCPU : {4} \nRAM : {5} \nPy-Tgcalls client ping : `{6}` ms."
+ping_2 : "{0} status.\n\nPing! : `{1}` ms\nBot uptime : {2} \nServer's storage : {3} \nCPU : {4} \nRAM : {5} \nPy-Tgcalls Status : `{6}` ms."
 
 
 # Song
