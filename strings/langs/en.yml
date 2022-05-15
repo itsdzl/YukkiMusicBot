@@ -205,7 +205,7 @@ lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "{0} status.\n\nPing! : `{1}` ms\nBot uptime : {2} \nServer's storage : {3} \nCPU : {4} \nRAM : {5} \nPy-Tgcalls Status : `{6}` ms."
+ping_2 : "Pong!\n⚡`{1}` ms\n\n**{0} System Stats:**\nUptime : {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
 
 
 # Song
