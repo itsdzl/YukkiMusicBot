@@ -229,7 +229,7 @@ queue_4 : "📍 Ditambahkan ke Antrian posisi **#{0}\n\nᴥJudul:** {1}\n**ᴥDu
 queue_5 : "Hanya satu trek di dalam antrian, Silakan tambahkan lagi ke daftar antrian"
 
 # All Streaming Lines
-stream_1 : "ᴥ **Mulai Streaming**\n\nᴥ **[Dapatkan Informasi]({1})\nᴥ **Diminta oleh:** {0}"
+stream_1 : "ᴥ **Mulai Streaming**\n\nᴥ **Informasi: [Di sini]({1})\nᴥ **Diminta oleh:** {0}"
 stream_2 : "ᴥ **Mulai Streaming melalui URL**\n\nᴥ **Diminta oleh:** {0}"
 stream_3 : "ᴥ **Mulai Streaming**\n\n**ᴥ Judul:** {0}\nᴥ **Durasi**: {1}\nᴥ **Diminta oleh:** {2}"
 stream_4 : "ᴥ **Mulai Streaming**\n\n**ᴥ Judul:** [{0}]({1})\nᴥ **Durasi**: {2}\nᴥ **Diminta oleh:** {3}"
