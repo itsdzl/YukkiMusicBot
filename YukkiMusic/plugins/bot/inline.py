@@ -54,13 +54,13 @@ async def inline_query_handler(client, query):
                 ]
             )
             searched_text = f"""
-❇️**Title:** [{title}]({link})
+✘**Title:** [{title}]({link})
 
-⏳**Duration:** {duration} Mins
-👀**Views:** `{views}`
-⏰**Published Time:** {published}
-🎥**Channel Name:** {channel}
-📎**Channel Link:** [Visit From Here]({channellink})
+✘**Duration:** {duration} Mins
+✘**Views:** `{views}`
+✘**Published Time:** {published}
+✘**Channel Name:** {channel}
+✘**Channel Link:** [Visit From Here]({channellink})
 
 __Reply with /play on this searched message to stream it on voice chat.__
 
