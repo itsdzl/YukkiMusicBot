@@ -3,7 +3,7 @@ name : Indonesia
 # General Strings
 general_1 : "Membalas pesan pengguna atau memberikan username/user_id."
 general_2 : "Kesalahan! Penggunaan Perintah yang Salah."
-general_3 : "Beberapa **pengecualian terjadi** saat memproses kueri Anda.\n\nJenis Pengecualian:- {0}"
+general_3 : "Beberapa **Kesalahan terjadi** saat memproses kueri Anda.\n\nAlasan:- {0}"
 general_4 : "Anda adalah admin anonim di grup obrolan ini!\nKembali kembali ke Akun Pengguna Dari Hak Admin."
 general_5 : "Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan tindakan ini."
 general_6 : "Tidak memutar apapun di obrolan suara."
@@ -142,9 +142,9 @@ cplay_5 : "Hanya Saluran yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** saluran[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Saluran:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke saluran itu lalu coba sambungkan dengan `/channelplay terhubung`"
 
 #Play
-play_1 : "✘ **Memproses Kueri...!**"
+play_1 : "✘ **Sedang memproses...!**"
 play_2 : "**✘ Mode Putar Saluran**\n\n✘ Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
-play_3 : "Gagal Memproses Kueri!"
+play_3 : "Gagal Memproses kueri!"
 play_4 : "🖇 **Hanya Admin**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang dari 100 mb"
 play_6 : "**Batas Durasi Terlampaui**\n\n**Durasi yang Diizinkan: **{0} menit\n**Durasi yang Diterima:** {1} jam"
