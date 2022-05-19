@@ -36,8 +36,8 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                "ᴄʜᴀɴɴᴇʟ​​​", url=f"https://t.me/beauthink"
-            ),
+                    text=_["ᴄʜᴀɴɴᴇʟ​"], url=f"http://t.me/beauthink"
+                ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
@@ -62,17 +62,11 @@ def telegram_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                "ᴄʜᴀɴɴᴇʟ​​​", url=f"https://t.me/beauthink"
-            ),
+                    text=_["ᴄʜᴀɴɴᴇʟ​"], url=f"http://t.me/beauthink"
+                ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
             ),
         ],
         [
