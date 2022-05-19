@@ -57,10 +57,6 @@ def telegram_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["ᴄʜᴀɴɴᴇʟ​"],
-                url=f"http://t.me/beauthink",
-            ),
-            InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
