@@ -54,7 +54,7 @@ admin_15 : "Tidak cukup trek dalam antrean untuk nilai yang Anda berikan. Harap 
 admin_16 : "Gagal melompat ke trek tertentu.\n\nPeriksa antrean kiri dengan /queue"
 admin_17 : "{0}.. Harap tunggu"
 admin_18 : "Daftar Admin Tidak Ditemukan\n\nSilakan muat ulang daftar admin dengan /admincache atau /reload"
-admin_19 : "Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan ini.\Jika Anda sudah menjadi admin, muat ulang cache admin dengan /admincache "
+admin_19 : "Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan ini.\nJika Anda sudah menjadi admin, muat ulang cache admin dengan /admincache "
 admin_20 : "Cache admin berhasil dimuat ulang."
 admin_21 : "Tidak ada di dalam antrian untuk diacak"
 admin_22 : "Gagal mengacak.\n\nPeriksa antrian : /queue"
