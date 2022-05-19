@@ -26,7 +26,7 @@ def lanuages_keyboard(_):
     keyboard.row(
         InlineKeyboardButton(
             text="🏴󠁧󠁢󠁥󠁮󠁧󠁿 English",
-            callback_data=f"languages:en",
+            callback_data=f"languages:eng",
         ),
         InlineKeyboardButton(
             text="🇮🇩 Indonesia",
