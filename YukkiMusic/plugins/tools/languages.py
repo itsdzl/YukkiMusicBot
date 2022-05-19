@@ -30,7 +30,7 @@ def lanuages_keyboard(_):
         ),
         InlineKeyboardButton(
             text="🇮🇩 Indonesia",
-            callback_data=f"languages:hi",
+            callback_data=f"languages:id",
         ),
     )
     keyboard.row(
