@@ -36,8 +36,7 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["ᴄʜᴀɴɴᴇʟ​"],
-                url=f"https://t.me/beauthink",
+                "ᴄʜᴀɴɴᴇʟ​​​", url=f"https://t.me/beauthink"
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
@@ -63,8 +62,7 @@ def telegram_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["ᴄʜᴀɴɴᴇʟ​"],
-                url=f"https://t.me/beauthink",
+                "ᴄʜᴀɴɴᴇʟ​​​", url=f"https://t.me/beauthink"
             ),
             InlineKeyboardButton(
                 text=_["PL_B_3"],
