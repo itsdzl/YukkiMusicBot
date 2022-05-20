@@ -40,7 +40,7 @@ def stream_markup(_, videoid):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["Channel"], url=f"http://t.me/beauthink"
             ),
         ],
         [
@@ -56,7 +56,7 @@ def telegram_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["Channel"], url=f"https://t.me/beauthink"
+                text=_["PL_B_3"], switch_inline_query_current_chat=""
             ),
         ],
         [
