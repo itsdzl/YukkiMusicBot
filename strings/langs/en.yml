@@ -152,7 +152,7 @@ play_7 : "Sorry! Bot only allows limited number of video calls due to CPU overlo
 play_8 : "Not A Valid Video File Extension!\n\n**Supported Formats:** {0}"
 play_9 : "Video File Size Should Be Less Than 1 GiB"
 play_10 : "**Youtube Playlist Feature**\n\nSelect the Mode in which you want to play whole Youtube Playlist"
-play_11 : "📎Title: **{0}\n\n⏳Duration:** {1} Mins"
+play_11 : "📎Title: **{0}\n\n⏳Duration:** {1}"
 play_12 : "**Spotify Play Mode**\n\nRequested By:- {0}"
 play_13 : "**Apple Playlists**\n\nRequested By:- {0}"
 play_14 : "**Unable to verify the URL.**\nBot wonders if this url belongs to any of the following platforms: Youtube, AppleMusic, Spotify, Resso and Soundcloud.\n\nYou can use /stream for M3u8 or Remote Links."
@@ -167,7 +167,7 @@ playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\
 playlist_2 : "Getting your playlist. Please wait"
 playlist_3 : "You have no playlist on Bot's Server."
 playlist_4 : "Fetched Playlist:\n\n"
-playlist_5 :  "    Duration- {0} Mins"
+playlist_5 :  "    Duration- {0}"
 playlist_6 : "Contact me in PM for deletion of Playlists."
 playlist_7 : "Tracks Inside Playlist: {0}\n\nPress the Buttons to delete a particular track in your playlist.\n\nTo delete whole playlist: Press Del Whole Playlist button."
 playlist_8 : "Already Exists\n\nThis track exists in your playlist."
@@ -333,7 +333,7 @@ SA_B_8 : "ʙᴏᴛ​ sᴛᴀᴛs"
 
 #Queue
 QU_B_1 : "📍 Queued List"
-QU_B_2 : "Played {0} out of {1} Mins"
+QU_B_2 : "Played {0} out of {1}"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
 
