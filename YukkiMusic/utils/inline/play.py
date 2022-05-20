@@ -40,7 +40,7 @@ def stream_markup(_, videoid):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=_["Channel"], url=f"http://t.me/beauthink"
+                text=_["Channel"], url=f"https://t.me/Beauthink"
             ),
         ],
         [
