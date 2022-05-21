@@ -31,13 +31,13 @@ def start_pannel(_):
 
 
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
-    buttons = [
+    buttons.append(
         [
             InlineKeyboardButton(
                 text=_["S_B_8"], callback_data="settings_back_helper"
             )
         ]
-    ]
+    )
     buttons.append(
         [
             InlineKeyboardButton(
