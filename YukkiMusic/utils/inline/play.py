@@ -8,7 +8,7 @@
 # All rights reserved.
 
 from pyrogram.types import InlineKeyboardButton
-
+from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
 
 def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
