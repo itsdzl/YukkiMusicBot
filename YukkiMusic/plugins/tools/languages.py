@@ -35,6 +35,12 @@ def lanuages_keyboard(_):
     )
     keyboard.row(
         InlineKeyboardButton(
+            text="🏴󠁩󠁤󠁮󠁵󠁿 Sunda",
+            callback_data=f"languages:su",
+        ),
+    )
+    keyboard.row(
+        InlineKeyboardButton(
             text=_["BACK_BUTTON"],
             callback_data=f"settingsback_helper",
         ),
