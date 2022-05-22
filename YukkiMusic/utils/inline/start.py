@@ -40,6 +40,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ]
     ]
     buttons.append(
+        [
             InlineKeyboardButton(
                 text=_["S_B_8"], callback_data="settings_back_helper"
             ),
