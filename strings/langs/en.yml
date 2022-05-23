@@ -237,8 +237,8 @@ stream_4 : "ᴥ **Started Streaming**\n\n**ᴥ Title:** [{0}]({1})\nᴥ **Durati
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "«x​»"
-CLOSEMENU_BUTTON  : "«x​»"
+CLOSE_BUTTON  : "•ᴄʟᴏsᴇ​"
+CLOSEMENU_BUTTON  : "•ᴄʟᴏsᴇ​"
 BACK_BUTTON : "«ʙᴀᴄᴋ"
 UNBAN_BUTTON : "•ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ"
 
@@ -253,7 +253,7 @@ S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
 S_B_5 : "✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
 S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
-S_B_8 : "«ᴍᴇɴᴜ»"
+S_B_8 : "✧ ᴍᴇɴᴜ ✧"
 
 #Help 
 H_B_1 : "ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ"
