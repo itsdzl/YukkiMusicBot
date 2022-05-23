@@ -237,13 +237,13 @@ stream_4 : "ᴥ **Mulai Streaming**\n\n**ᴥ Judul:** [{0}]({1})\nᴥ **Durasi**
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
-CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
+CLOSE_BUTTON  : "«x​»"
+CLOSEMENU_BUTTON  : "«x​»​"
 BACK_BUTTON : "«ᴋᴇᴍʙᴀʟɪ​"
-UNBAN_BUTTON : "• ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
+UNBAN_BUTTON : "•ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
 
 #Lyrics
-L_B_1 : "• ʟɪʜᴀᴛ ʟɪʀɪᴋ​​"
+L_B_1 : "•ʟɪʜᴀᴛ ʟɪʀɪᴋ​​"
 
 # Start
 S_B_1 : "ᴘᴇʀɪɴᴛᴀʜ​"
@@ -253,7 +253,7 @@ S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
 S_B_5 : "✚ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ​"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
 S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
-S_B_8 : "✧ ᴍᴇɴᴜ ✧​​"
+S_B_8 : "«ᴍᴇɴᴜ»​​"
 
 #Help 
 H_B_1 : "ᴘᴇʀɪɴᴛᴀʜ​ ᴀᴅᴍɪɴ"
