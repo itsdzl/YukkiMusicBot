@@ -237,10 +237,10 @@ stream_4 : "ᴥ **Mimitian Streaming**\n\n**ᴥ Judul:** [{0}]({1})\nᴥ **Duras
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
-CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
+CLOSE_BUTTON  : "•ᴛᴜᴛᴜᴘ​"
+CLOSEMENU_BUTTON  : "•ᴛᴜᴛᴜᴘ​"
 BACK_BUTTON : "«ʙᴀʟɪᴋ​​"
-UNBAN_BUTTON : "• ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
+UNBAN_BUTTON : "•ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
 
 #Lyrics
 L_B_1 : "• ᴛɪɴɢɢᴀʟ​ ʟɪʀɪᴋ​​"
