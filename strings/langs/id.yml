@@ -237,8 +237,8 @@ stream_4 : "ᴥ **Mulai Streaming**\n\n**ᴥ Judul:** [{0}]({1})\nᴥ **Durasi**
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "«x​»"
-CLOSEMENU_BUTTON  : "«x​»​"
+CLOSE_BUTTON  : "•ᴛᴜᴛᴜᴘ​"
+CLOSEMENU_BUTTON  : "•ᴛᴜᴛᴜᴘ​"
 BACK_BUTTON : "«ᴋᴇᴍʙᴀʟɪ​"
 UNBAN_BUTTON : "•ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
 
