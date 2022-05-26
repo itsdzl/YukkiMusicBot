@@ -104,14 +104,9 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_4"],
-                url=f"{SUPPORT_CHANNEL}",
+                text=_["P_B_3"],
+                callback_data=f"LiveStream {videoid}|{user_id}|{mode}|{channel}|{fplay}",
             ),
-            InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
-            ),
-        ],
-        [
             InlineKeyboardButton(
                 text=_["CLOSEMENU_BUTTON"],
                 callback_data=f"forceclose {videoid}|{user_id}",
