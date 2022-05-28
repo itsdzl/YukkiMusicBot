@@ -75,7 +75,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 
 # Start
 start_1 : "Terima kasih telah meminta saya untuk {0}.\n{1} masih hidup.\n\nUntuk bantuan atau bantuan apa pun, kontak pemilik bot."
-start_2 : "Hei!!\n\n💡Saya {0} Bot Vc Streaming Telegram, Saya Diizinkan Memutar Musik Dan Video Apa Pun Di Grup Atau Saluran Vc Anda\n\n🔖 Platform yang Didukung:\n• Youtube • Spotify • Resso\ n• AppleMusic • Soundloud\n\n📚 Ketuk Tombol Di Bawah Untuk Melihat Cara Menggunakan Saya ❓"
+start_2 : "Hei!!\n\n💡Saya {0} Bot Vc Streaming Telegram, Saya Diizinkan Memutar Musik Dan Video Apa Pun Di Grup Atau Saluran Vc Anda\n\n🔖 Platform yang Didukung:\n• Youtube • Spotify • Resso\n• AppleMusic • Soundloud\n\n📚 Ketuk Tombol Di Bawah Untuk Melihat Cara Menggunakan Saya ❓"
 start_3 : "Hallo!\n\nTambahkan Asisten Secara Manual jika asisten tidak dapat bergabung secara otomatis.\nUsername Asisten:- @{1}\nID Asisten:- {2}"
 start_4 : "[{1}], Pemilik Bot {0} baru saja bergabung ke obrolan grup."
 start_5 : "Anggota dari {0} Pengguna Sudo[{1}] baru saja bergabung ke obrolan grup."
