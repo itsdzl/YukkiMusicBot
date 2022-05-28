@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for Having me to {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "Hey!!\n\n💡Im {0} A Telegram Streaming Vc Bot, Im Allowed To Play Any Music And Video On Your Vc Group Or Channel\n\n🔖 Supported Platform:\n- Youtube - Spotify - Resso\n- AppleMusic - Soundloud.\n\n📚 Tap The Button Below To See How To Use Me ❓"
+start_2 : "Hey!!\n\n💡Im {0} A Telegram Streaming Vc Bot, Im Allowed To Play Any Music And Video On Your Vc Group Or Channel\n\n🔖 Supported Platform:\n• Youtube • Spotify • Resso\n• AppleMusic • Soundloud\n\n📚 Tap The Button Below To See How To Use Me ❓"
 start_3 : "Welcome To {0}\n\nplease make me admin with full permission.\n\nAdd Manually Assistant if assistant cannot auto join.\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "[{1}], Owner {0}'s just joined the group chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined the group chat."
