@@ -75,7 +75,7 @@ admin_34 : "Gagal mendakan aliran ayeuna."
 
 # Start
 start_1 : "Hatur nuhun tos naroskeun ka abdi ka {0}.\n{1} masih keneh hirup.\n\nPikeun bantosan atanapi bantosan, hubungi nu gaduh bot."
-start_2 : "Héy!!\n\n💡Abdi {0} Bot Vc Streaming Telegram, Abdi Diidinan Muter Musik sareng Pidio Sakur Dina Grup Vc Atawa Saluran Anjeun\n\n🔖 Platform anu Didukung:\n• Youtube • Spotify • Resso\n • AppleMusic • Soundloud\n\n📚Ketok Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Kuring ❓
+start_2 : "Héy!!\n\n💡Abdi {0} Bot Vc Streaming Telegram, Abdi Diidinan Muter Musik sareng Pidio Sakur Dina Grup Vc Atawa Saluran Anjeun\n\n🔖 Platform anu Didukung:\n• Youtube • Spotify • Resso\n • AppleMusic • Soundloud\n\n📚Ketok Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Kuring ❓"
 start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
 start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
 start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
