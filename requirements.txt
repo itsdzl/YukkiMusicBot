@@ -10,9 +10,9 @@ lyricsgenius
 motor
 pillow
 psutil
-py-tgcalls
 pykeyboard
-pyrogram==1.4.12
+pyrogram==1.4.16
+py-tgcalls==0.9.0b1
 python-dotenv
 pyyaml==5.3.1
 requests
@@ -22,4 +22,4 @@ tgcrypto
 wget
 youtube-search
 youtube-search-python
-yt-dlp
+yt-dlp==2021.11.10.1
