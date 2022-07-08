@@ -61,7 +61,8 @@ def telegram_markup(_):
                 url=f"{SUPPORT_CHANNEL}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"], text=_["PL_B_3"], callback_data=f"PanelMarkup None|{chat_id}",
+                text=_["PL_B_3"], 
+                callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
         [
