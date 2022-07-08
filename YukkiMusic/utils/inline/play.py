@@ -36,11 +36,11 @@ def stream_markup(_, videoid):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
-            ),
-            InlineKeyboardButton(
                 text=_["S_B_4"],
                 url=f"{SUPPORT_CHANNEL}",
+            ),
+                InlineKeyboardButton(
+                text=_["PL_B_3"], callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
         [
@@ -66,7 +66,7 @@ def telegram_markup(_):
                 url=f"{SUPPORT_CHANNEL}",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"], switch_inline_query_current_chat=""
+                text=_["PL_B_3"], text=_["PL_B_3"], callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
         [
