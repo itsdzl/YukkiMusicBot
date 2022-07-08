@@ -118,6 +118,14 @@ async def play_commnd(
                     streamtype="telegram",
                     forceplay=fplay,
                 )
+            except Exception as e:
+                ex_type = type(e).__name__
+                err = (
+                    e
+                    if ex_type == "AssistantErr"
+                    else _["general_3"].format(ex_type)
+                )
+                return await mystic.edit_text(err)
             return await mystic.delete()
         return
     elif video_telegram:
@@ -160,6 +168,14 @@ async def play_commnd(
                     streamtype="telegram",
                     forceplay=fplay,
                 )
+            except Exception as e:
+                ex_type = type(e).__name__
+                err = (
+                    e
+                    if ex_type == "AssistantErr"
+                    else _["general_3"].format(ex_type)
+                )
+                return await mystic.edit_text(err)
             return await mystic.delete()
         return
     elif url:
@@ -308,6 +324,14 @@ async def play_commnd(
                     streamtype="soundcloud",
                     forceplay=fplay,
                 )
+            except Exception as e:
+                ex_type = type(e).__name__
+                err = (
+                    e
+                    if ex_type == "AssistantErr"
+                    else _["general_3"].format(ex_type)
+                )
+                return await mystic.edit_text(err)
             return await mystic.delete()
         else:
             try:
@@ -338,6 +362,14 @@ async def play_commnd(
                     streamtype="index",
                     forceplay=fplay,
                 )
+            except Exception as e:
+                ex_type = type(e).__name__
+                err = (
+                    e
+                    if ex_type == "AssistantErr"
+                    else _["general_3"].format(ex_type)
+                )
+                return await mystic.edit_text(err)
             return await play_logs(
                 message, streamtype="M3u8 or Index Link"
             )
@@ -397,6 +429,14 @@ async def play_commnd(
                 spotify=spotify,
                 forceplay=fplay,
             )
+        except Exception as e:
+            ex_type = type(e).__name__
+            err = (
+                e
+                if ex_type == "AssistantErr"
+                else _["general_3"].format(ex_type)
+            )
+            return await mystic.edit_text(err)
         await mystic.delete()
         return await play_logs(message, streamtype=streamtype)
     else:
@@ -534,6 +574,14 @@ async def play_music(client, CallbackQuery, _):
             streamtype="youtube",
             forceplay=ffplay,
         )
+    except Exception as e:
+        ex_type = type(e).__name__
+        err = (
+            e
+            if ex_type == "AssistantErr"
+            else _["general_3"].format(ex_type)
+        )
+        return await mystic.edit_text(err)
     return await mystic.delete()
 
 
@@ -636,6 +684,14 @@ async def play_playlists_command(client, CallbackQuery, _):
             spotify=spotify,
             forceplay=ffplay,
         )
+    except Exception as e:
+        ex_type = type(e).__name__
+        err = (
+            e
+            if ex_type == "AssistantErr"
+            else _["general_3"].format(ex_type)
+        )
+        return await mystic.edit_text(err)
     return await mystic.delete()
 
 
