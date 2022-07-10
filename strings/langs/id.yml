@@ -84,7 +84,7 @@ start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan daftar hita
 
 # Help
 help_1 : "💡 Klik tombol di bawah untuk informasi lebih lanjut. Jika Anda menghadapi masalah dalam perintah, Anda dapat menghubungi pemilik bot saya dan menanyakannya.\n\n📍 Semua perintah, hanya dapat digunakan dengan: /"
-help_2 : "✧ Klik tombol di bawah ini. ✧"
+help_2 : "Klik tombol di bawah ini."
 
 # Settings
 setting_1 : "⚙️ **Setelan Bot Musik**\n\n🖇**Grup:** {0}\n🔖**ID Grup:** `{1}`\n\n💡**Pilih tombol fungsi dari bawah yang Anda inginkan untuk mengedit atau mengubah.**"
@@ -130,7 +130,7 @@ gstats_11 : "**Statistik Umum {0}**\nPilih tombol dari bawah yang ingin Anda per
 # Play 
 
 #Play Callback 
-playcb_1 : "Ini bukan untukmu! Cari Lagu Anda Sendiri."
+playcb_1 : "Ini bukan untukmu! Cari Lagu Sendiri."
 playcb_2 : "Mendapatkan Hasil Selanjutnya"
 
 # Channel Play
@@ -204,8 +204,8 @@ lyrics_3 : "❌ Gagal mengambil lirik.\n\n💡**Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
-ping_1 : "Pong!!!!"
-ping_2 : "Pong!\n⚡`{1}` ms\n\n**{0} Statistik Sistem:**\nWaktu aktif : {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
+ping_1 : "Ping..."
+ping_2 : "Pong!\n⚡`{1}` ms\n\n<i>{0} Statistik Sistem:</i>**\nWaktu aktif : {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
 
 
 # Song
@@ -237,13 +237,13 @@ stream_4 : "ᴥ **Mulai Streaming**\n\n**ᴥ Judul:** [{0}]({1})\nᴥ **Durasi**
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "•ᴛᴜᴛᴜᴘ​"
-CLOSEMENU_BUTTON  : "•ᴛᴜᴛᴜᴘ​"
-BACK_BUTTON : "«ᴋᴇᴍʙᴀʟɪ​"
-UNBAN_BUTTON : "•ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
+CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
+CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
+BACK_BUTTON : "⤾ ᴋᴇᴍʙᴀʟɪ​"
+UNBAN_BUTTON : "ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
 
 #Lyrics
-L_B_1 : "•ʟɪʜᴀᴛ ʟɪʀɪᴋ​​"
+L_B_1 : "ʟɪʜᴀᴛ ʟɪʀɪᴋ​​"
 
 # Start
 S_B_1 : "ᴘᴇʀɪɴᴛᴀʜ​"
@@ -253,7 +253,7 @@ S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
 S_B_5 : "✚ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ​"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
 S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
-S_B_8 : "✧ ᴍᴇɴᴜ ✧​​"
+S_B_8 : "• ᴍᴇɴᴜ •​​"
 
 #Help 
 H_B_1 : "ᴘᴇʀɪɴᴛᴀʜ​ ᴀᴅᴍɪɴ"
@@ -277,7 +277,7 @@ P_B_4 : "ᴘᴜᴛᴀʀ​​ ᴘʟᴀʏʟɪsᴛ"
 #Playlist
 PL_B_1 : "ᴘᴜᴛᴀʀ​ ᴘʟᴀʏʟɪsᴛ"
 PL_B_2 : "ᴛᴀᴍʙᴀʜ ᴋᴇ​ ᴘʟᴀʏʟɪsᴛ​"
-PL_B_3 : "•ᴍᴇɴᴜ•"
+PL_B_3 : "• ᴍᴇɴᴜ •"
 PL_B_4 : "ᴍᴏᴅᴇ ᴘᴇᴍᴜᴛᴀʀᴀɴ​"
 PL_B_5 : "ʀᴇsᴇᴛ​​ ᴘʟᴀʏʟɪsᴛ​"
 PL_B_6 : "ʜᴀᴘᴜs ᴘʟᴀʏʟɪsᴛ​"
