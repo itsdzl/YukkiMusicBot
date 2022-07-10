@@ -84,7 +84,7 @@ start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. 
 
 # Help
 help_1 : "💡 Click the buttons below for more information. If you're facing any problem in command you can contact my bot owner and ask him.\n\n📍 All commands, only can be used with: /"
-help_2 : "✧ Click the buttons below. ✧"
+help_2 : "Click the buttons below."
 
 # Settings
 setting_1 : "⚙️ **Music Bot Settings**\n\n🖇**Group:** {0}\n🔖**Group ID:** `{1}`\n\n💡**Choose the function buttons from below which you want to edit or change.**"
@@ -142,8 +142,8 @@ cplay_5 : "Only Channels are supported."
 cplay_6 : "You need to be the **Owner** of the channel[{0}] to connect it with this group.\n**Channel's Owner:** @{1}\n\nAlternatively you can link your group to that channel and then try connnecting with `/channelplay linked`"
 
 #Play
-play_1 : "メ **Processing the Query...!**"
-play_2 : "**メ Channel Play Mode**\n\nメ Processing the Query... Please Wait!\n**Linked Channel:** {0}"
+play_1 : "**Processing the Query...**"
+play_2 : "**Channel Play Mode**\n\nProcessing the Query... Please Wait!\n**Linked Channel:** {0}"
 play_3 : "Failed to Process Query!"
 play_4 : "🖇 **Admins Only Play**\nOnly Admins and Auth Users can play music in this group.\n\nChange mode via /playmode and if you're already admin, reload admincache via /admincache"
 play_5 : "Failed to process audio file.\n\nAudio File Size Should Be Less Than 100 mb"
@@ -204,8 +204,8 @@ lyrics_3 : "❌ Failed to fetch lyrics😭.\n\n💡**Tried Searching For:** {0}"
 lyrics_4 : "Click on the button below and get searched lyrics to avoid long spam types lyrics search."
 
 #Ping
-ping_1 : "Pong!!!!"
-ping_2 : "Pong!\n⚡`{1}` ms\n\n**{0} System Stats:**\nUptime : {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
+ping_1 : "Ping..."
+ping_2 : "Pong!\n⚡`{1}` ms\n\n<i>{0} System Stats:</i>\nUptime : {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
 
 
 # Song
@@ -237,13 +237,13 @@ stream_4 : "ᴥ **Started Streaming**\n\n**ᴥ Title:** [{0}]({1})\nᴥ **Durati
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "•ᴄʟᴏsᴇ​"
-CLOSEMENU_BUTTON  : "•ᴄʟᴏsᴇ​"
-BACK_BUTTON : "«ʙᴀᴄᴋ"
-UNBAN_BUTTON : "•ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ"
+CLOSE_BUTTON  : "• ᴄʟᴏsᴇ​"
+CLOSEMENU_BUTTON  : "• ᴄʟᴏsᴇ​"
+BACK_BUTTON : "⤾ ʙᴀᴄᴋ"
+UNBAN_BUTTON : "ᴜɴʙᴀɴ ᴀssɪsᴛᴀɴᴛ"
 
 #Lyrics
-L_B_1 : "•ɢᴇᴛ ʟʏʀɪᴄs ɴᴏᴡ​"
+L_B_1 : "ɢᴇᴛ ʟʏʀɪᴄs ɴᴏᴡ​"
 
 # Start
 S_B_1 : "ᴄᴏᴍᴍᴀɴᴅs"
@@ -253,7 +253,7 @@ S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
 S_B_5 : "✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
 S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
-S_B_8 : "✧ ᴍᴇɴᴜ ✧"
+S_B_8 : "• ᴍᴇɴᴜ •"
 
 #Help 
 H_B_1 : "ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅ"
@@ -277,7 +277,7 @@ P_B_4 : "ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛ"
 #Playlist
 PL_B_1 : "ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛ"
 PL_B_2 : "ᴀᴅᴅ ᴛᴏ ᴘʟᴀʏʟɪsᴛ"
-PL_B_3 : "•ᴍᴇɴᴜ•"
+PL_B_3 : "• ᴍᴇɴᴜ •"
 PL_B_4 : "ᴘʟᴀʏ ᴍᴏᴅᴇ"
 PL_B_5 : "ᴅᴇʟ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ​"
 PL_B_6 : "ᴅᴇʟᴇᴛᴇ ᴘʟᴀʏʟɪsᴛ​"
