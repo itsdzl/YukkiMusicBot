@@ -75,7 +75,7 @@ admin_34 : "Gagal mendakan aliran ayeuna."
 
 # Start
 start_1 : "Hatur nuhun tos naroskeun ka abdi ka {0}.\n{1} masih keneh hirup.\n\nPikeun bantosan atanapi bantosan, hubungi nu gaduh bot."
-start_2 : "Héy!!\n\n💡Abdi {0} Bot Vc Streaming Telegram, Abdi Diidinan Muter Musik sareng Pidio Sakur Dina Grup Vc Atawa Saluran Anjeun\n\n🔖 Platform anu Didukung:\n• Youtube • Spotify • Resso\n • AppleMusic • Soundloud\n\n📚Ketok Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Kuring ❓"
+start_2 : "Héy!!\n\n💡Abdi {0} Vc Streaming, Abdi Diidinan Muter Musik sareng Pidio Sakur Dina Grup Atawa Saluran Anjeun\n\n🔖 Platform anu Didukung:\n• Youtube • Spotify • Resso\n • AppleMusic • Soundloud\n\n📚Ketok Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Kuring."
 start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
 start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
 start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
@@ -84,7 +84,7 @@ start_7 : "**Obrolan Daptar Hideung**\n\nObrolan anjeun geus di-blacklist ku Bot
 
 # Help
 help_1 : "💡 Klik tombol di handap pikeun inpormasi anu langkung lengkep. Upami anjeun nyanghareupan masalah sareng paréntah, anjeun tiasa ngahubungi anu gaduh bot kuring sareng naroskeun ngeunaan éta.\n\n📍 Sadaya paréntah, ngan tiasa dianggo sareng: /"
-help_2 : "✧ Pencét tombol di handap."
+help_2 : "Pencét tombol di handap."
 
 # Settings
 setting_1 : "⚙️ **Setélan Bot Musik**\n\n🖇**Grup:** {0}\n🔖**ID Grup:** `{1}`\n\n💡**Pilih konci fungsi ti handap nu rék diédit atawa dirobah.**"
@@ -142,8 +142,8 @@ cplay_5 : "Ngan Saluran anu dirojong."
 cplay_6 : "Anjeun kedah janten **Pamilik** saluran[{0}] pikeun ngahubungkeun éta sareng grup ieu.\n**Pamilik Saluran:** @{1}\n\nAtawa anjeun tiasa ngaitkeun grup anjeun ka saluran éta sareng cobian sambungkeun sareng `/channelplay connect`"
 
 #Play
-play_1 : "✘ **Ngolah...!**"
-play_2 : "**✘ Modeu Puter Saluran**\n\n✘ Ngolah Paménta... Punten Antosan!\n**Saluran Numbu:** {0}"
+play_1 : "✘ **Antosan Sakedap...**"
+play_2 : "**✘ Modeu Puter Saluran**\n\n✘ Ngolah Paménta... Antosan Sakedap...\n**Saluran Numbu:** {0}"
 play_3 : "Gagal Ngolah Paménta!"
 play_4 : "🖇 **Ngan Admin**\nNgan Pamaké Admin sareng Auth anu tiasa maénkeun musik dina grup ieu.\n\nGanti modeu liwat /playmode sareng upami anjeun parantos janten admin, muatkeun deui admincache ngalangkungan /admincache"
 play_5 : "Gagal ngolah file audio.\n\nUkuran File Audio Kudu Kurang ti 100 mb"
@@ -204,8 +204,8 @@ lyrics_3 : "❌ Gagal nyandak lirik.\n\n💡**Nyobian milarian:** {0}"
 lyrics_4 : "Klik tombol di handap tur neangan lirik pikeun nyingkahan panjang spam jenis pilarian lirik."
 
 #Ping
-ping_1 : "Pong!!!!"
-ping_2 : "Pong!\n⚡`{1}` ms\n\n**{0} Statistik Sistim:**\nWaktos: {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
+ping_1 : "Ping..."
+ping_2 : "Pong!\n⚡`{1}` ms\n\n<i>{0} Statistik Sistim:</i>\nWaktos: {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
 
 
 # Song
@@ -237,13 +237,13 @@ stream_4 : "ᴥ **Mimitian Streaming**\n\n**ᴥ Judul:** [{0}]({1})\nᴥ **Duras
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "•ᴛᴜᴛᴜᴘ​"
-CLOSEMENU_BUTTON  : "•ᴛᴜᴛᴜᴘ​"
-BACK_BUTTON : "«ʙᴀʟɪᴋ​​"
-UNBAN_BUTTON : "•ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
+CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
+CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
+BACK_BUTTON : "⤾ ʙᴀʟɪᴋ​​"
+UNBAN_BUTTON : "ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
 
 #Lyrics
-L_B_1 : "• ᴛɪɴɢɢᴀʟ​ ʟɪʀɪᴋ​​"
+L_B_1 : "ᴛɪɴɢɢᴀʟ​ ʟɪʀɪᴋ​​"
 
 # Start
 S_B_1 : "ᴘᴀʀᴇɴᴛᴀʜ​​"
@@ -253,7 +253,7 @@ S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
 S_B_5 : "✚ ᴛᴀᴍʙᴀʜᴋᴇᴜɴ ᴋᴀ​ ɢʀᴜᴘ​"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
 S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
-S_B_8 : "✧ ᴍᴇɴᴜ ✧​​​"
+S_B_8 : "• ᴍᴇɴᴜ •​​​"
 
 #Help 
 H_B_1 : "ᴘᴀʀᴇɴᴛᴀʜ​ ᴀᴅᴍɪɴ"
@@ -275,7 +275,7 @@ P_B_4 : "ᴘᴜᴛᴇʀ​​​ ᴘʟᴀʏʟɪsᴛ"
 #Playlist
 PL_B_1 : "ᴘᴜᴛᴇʀ​​ ᴘʟᴀʏʟɪsᴛ"
 PL_B_2 : "​ᴛᴀᴍʙɪʜ ᴋᴀ ᴘʟᴀʏʟɪsᴛ​"
-PL_B_3 : "•ᴍᴇɴᴜ•"
+PL_B_3 : "• ᴍᴇɴᴜ •"
 PL_B_4 : "ᴍᴏᴅᴇ ᴘᴀᴍᴜᴛᴇʀᴀɴ​​"
 PL_B_5 : "ʀᴇsᴇᴛ​​ ᴘʟᴀʏʟɪsᴛ​"
 PL_B_6 : "ʜᴀᴘᴜs ᴘʟᴀʏʟɪsᴛ​"
