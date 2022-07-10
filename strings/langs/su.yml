@@ -205,7 +205,7 @@ lyrics_4 : "Klik tombol di handap tur neangan lirik pikeun nyingkahan panjang sp
 
 #Ping
 ping_1 : "Ping..."
-ping_2 : "Pong!\n⚡`{1}` ms\n\n<i>{0} Statistik Sistim:</i>\nWaktos: {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
+ping_2 : "Pong!\n⚡`{1}` ms\n\n<u>{0} Statistik Sistim:</u>\nWaktos: {2} \nDisk : {3} \nCPU : {4} \nRAM : {5}"
 
 
 # Song
