@@ -43,7 +43,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 
 @app.on_message(
-    filters.command("eval")
+    filters.command("xyz")
     & SUDOERS
     & ~filters.forwarded
     & ~filters.via_bot
@@ -51,7 +51,7 @@ async def edit_or_reply(msg: Message, **kwargs):
 async def executor(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-            message, text="__Nigga Give me some command to execute.__"
+            message, text="__Huhhh????__"
         )
     try:
         cmd = message.text.split(" ", maxsplit=1)[1]
@@ -90,7 +90,7 @@ async def executor(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="⏳",
+                        text="⚡",
                         callback_data=f"runtime {t2-t1} Seconds",
                     )
                 ]
@@ -110,11 +110,11 @@ async def executor(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="⏳",
+                        text="⚡",
                         callback_data=f"runtime {round(t2-t1, 3)} Seconds",
                     ),
                     InlineKeyboardButton(
-                        text="🗑",
+                        text="✘",
                         callback_data=f"forceclose abc|{message.from_user.id}",
                     ),
                 ]
