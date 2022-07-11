@@ -170,13 +170,13 @@ def panel_markup_1(_, videoid, chat_id):
                 callback_data=f"ADMIN 1|{chat_id}",
             ),
             InlineKeyboardButton(
-                text=_["P_M_4"],
+                text=_["P_M_1"],
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text=_["P_M_1"],
+                text=_["P_M_4"],
                 callback_data=f"ADMIN 3|{chat_id}",
             ),
             InlineKeyboardButton(
