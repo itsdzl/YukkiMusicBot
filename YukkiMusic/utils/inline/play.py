@@ -166,21 +166,21 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⏪ 10",
+                text=_["P_M_3"],
                 callback_data=f"ADMIN 1|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏪ 10",
+                text=_["P_M_4"],
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⏩ 30",
+                text=_["P_M_1"],
                 callback_data=f"ADMIN 3|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏩ 30",
+                text=_["P_M_2"],
                 callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],
