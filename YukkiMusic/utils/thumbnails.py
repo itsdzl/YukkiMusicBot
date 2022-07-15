@@ -91,7 +91,7 @@ async def gen_thumb(videoid):
         j = 0
         draw.text(
             (600, 150),
-            "{MUSIC_BOT_NAME}",
+            "DVOTIEN",
             fill="white",
             stroke_width=2,
             stroke_fill="white",
