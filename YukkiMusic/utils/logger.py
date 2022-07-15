@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-from config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
+from config import LOG, LOG_GROUP_ID
 from YukkiMusic import app
 from YukkiMusic.utils.database import is_on_off
 
@@ -19,7 +19,7 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**{MUSIC_BOT_NAME} QUERY LOG**
+**DVOTIEN MUSIC LOG**
 
 **Chat:** {message.chat.title} [`{message.chat.id}`]
 **User:** {message.from_user.mention}
