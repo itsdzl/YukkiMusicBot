@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup as bs
 
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram import TelegramError, Update
-from telegram.ext import CallbackContext
+from telegram.ext import CallbackContext, CommandHandler
 from telegram.utils.helpers import mention_html
 
 from EmikoRobot.modules.disable import DisableAbleCommandHandler
@@ -21,6 +21,22 @@ dispatcher = updater.dispatcher
 BOT_ID = dispatcher.bot.id
 BOT_USERNAME = dispatcher.bot.username
 BOT_NAME = dispatcher.bot.first_name
+DISABLE_CMDS = []
+DISABLE_OTHER = []
+ADMIN_CMDS = []
+
+    class DisableAbleCommandHandler(CommandHandler):
+        def __init__(self, command, callback, admin_ok=False, **kwargs):
+            super().__init__(command, callback, **kwargs)
+            self.admin_ok = admin_ok
+            if isinstance(command, string_types):
+                DISABLE_CMDS.append(command)
+                if admin_ok:
+                    ADMIN_CMDS.append(command)
+            else:
+                DISABLE_CMDS.extend(command)
+                if admin_ok:
+                    ADMIN_CMDS.extend(command)
 
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
