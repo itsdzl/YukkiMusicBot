@@ -13,7 +13,6 @@ from telegram import TelegramError, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.utils.helpers import mention_html
 
-from EmikoRobot.modules.disable import DisableAbleCommandHandler
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 dispatcher = updater.dispatcher
