@@ -28,25 +28,14 @@ def getConfig(name: str):
     return os.environ[name]
 
 try:
-    TOKEN = getConfig('TOKEN')
+    TOKEN = getConfig('BOT_TOKEN')
 except KeyError as e:
-    LOGGER.error("TOKEN env variables missing! Exiting now")
+    LOGGER.error("BOT_TOKEN env variables missing! Exiting now")
     exit(1)
 
 updater = telegram.ext.Updater(token=TOKEN)
 bot = updater.bot
 dispatcher = updater.dispatcher
-
-START_TEXT = """
-Hey! I'm {}, and I'm a bot which allows you to create a sticker pack from other stickers, images and documents!
-I only have a few commands so I don't have a help menu or anything like that.
-You can also check out the source code for the bot [here](https://github.com/breakdowns/kang-stickerbot)
-""".format(dispatcher.bot.first_name)
-
-@run_async
-def start(bot: Bot, update: Update):
-    if update.effective_chat.type == "private":
-        update.effective_message.reply_text(START_TEXT, parse_mode=ParseMode.MARKDOWN)
 
 
 @run_async
@@ -84,7 +73,7 @@ def kang(bot: Bot, update: Update, args: List[str]):
         elif msg.reply_to_message.sticker and msg.reply_to_message.sticker.emoji:
             sticker_emoji = msg.reply_to_message.sticker.emoji
         else:
-            sticker_emoji = "🤔"
+            sticker_emoji = "✨"
         kangsticker = "kangsticker.png"
         try:
             im = Image.open(kangsticker)
@@ -179,7 +168,7 @@ def kangurl(bot: Bot, update: Update, args: List[str]):
                 png_sticker = urlemoji[1] 
                 sticker_emoji = urlemoji[2]
             except IndexError:
-                sticker_emoji = "🤔"
+                sticker_emoji = "✨"
             urllib.urlretrieve(png_sticker, kangsticker)
             im = Image.open(kangsticker)
             if (im.width and im.height) < 512:
