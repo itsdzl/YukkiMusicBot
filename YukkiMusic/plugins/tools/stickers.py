@@ -13,8 +13,15 @@ from telegram import TelegramError, Update
 from telegram.ext import CallbackContext
 from telegram.utils.helpers import mention_html
 
-from EmikoRobot import dispatcher
 from EmikoRobot.modules.disable import DisableAbleCommandHandler
+
+updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
+dispatcher = updater.dispatcher
+
+BOT_ID = dispatcher.bot.id
+BOT_USERNAME = dispatcher.bot.username
+BOT_NAME = dispatcher.bot.first_name
+
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
