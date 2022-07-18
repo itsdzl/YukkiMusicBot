@@ -5,8 +5,8 @@ from pyrogram import filters, Client, errors
 from pyrogram.types import Message
 from Python_ARQ import ARQ
 
-from Zaid.utils.errors import capture_err
-from Zaid import pbot as app
+from YukkiMusic.utils.errors import capture_err
+from YukkiMusic import app
 
 arq = ARQ("https://thearq.tech", "UIUXOY-NTKWDC-QHFFMD-DHHKVV-ARQ", aiohttpsession)
 
