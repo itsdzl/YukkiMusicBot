@@ -23,4 +23,6 @@ wget
 youtube-search
 youtube-search-python
 yt-dlp==2021.11.10.1
-python-telegram-bot==10.1.0
+python-telegram-bot==13.7
+python-arq
+telegram==0.0.1
