@@ -4,7 +4,7 @@ from functools import wraps
 
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
-from .logging import LOGGER
+from ..logging import LOGGER
 from YukkiMusic import app
 
 
