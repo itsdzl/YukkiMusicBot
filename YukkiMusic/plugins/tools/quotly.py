@@ -5,9 +5,12 @@ from pyrogram import filters, Client, errors
 from pyrogram.types import Message
 from Python_ARQ import ARQ
 
+from aiohttp import ClientSession
+
 from YukkiMusic.utils.errors import capture_err
 from YukkiMusic import app
 
+aiohttpsession = ClientSession()
 arq = ARQ("https://thearq.tech", "UIUXOY-NTKWDC-QHFFMD-DHHKVV-ARQ", aiohttpsession)
 
 async def quotify(messages: list):
