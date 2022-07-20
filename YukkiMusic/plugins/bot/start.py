@@ -231,9 +231,7 @@ async def start_comm(client, message: Message, _):
 async def testbot(client, message: Message, _):
     out = start_pannel(_)
     return await message.reply_text(
-        _["start_1"].format(
-            message.chat.title, config.MUSIC_BOT_NAME
-        ),
+        _["start_1"],
         reply_markup=InlineKeyboardMarkup(out),
     )
 
