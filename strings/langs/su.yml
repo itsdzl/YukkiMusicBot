@@ -6,7 +6,7 @@ general_2 : "Eror! Salah Parentah Pamakéan."
 general_3 : "Sababaraha **Kasalahan lumangsung** nalika ngolah pamundut anjeun.\n\nAlesan:- {0}"
 general_4 : "Anjeun admin anonim tina grup obrolan ieu!\nBalik deui ka Akun Pamaké Ti Hak Admin."
 general_5 : "Anjeun kedah janten admin sareng ngatur hak obrolan sora pikeun ngalakukeun tindakan ieu."
-general_6 : "Teu maénkeun nanaon dina obrolan sora."
+general_6 : "❌ **teu maénkeun nanaon dina obrolan sora**"
 
 # Classes - Telegram.py
 tg_1 : "Bot teu bisa ngundeur ayeuna.\n\n**Coba engké."
@@ -36,16 +36,16 @@ auth_7 : "**Daptar Pamaké Otorisasi[AUL]:**\n\n"
 auth_8 : "┗ Ditambahkeun ku:-"
 
 # PLUGINS - Admin
-admin_1 : "Musik geus Direureuhkeun."
-admin_2 : "🎧 Obrolan Sora Direureuhkeun ku {}!"
-admin_3 : "Musik geus diteruskeun."
-admin_4 : "🎧 Obrolan Sora Diteruskeun ku {}!"
-admin_5 : "Musik geus dipareuman."
-admin_6 : "🎧 Obrolan Sora Dijempékeun ku {}!"
-admin_7 : "Musik geus disada."
-admin_8 : "🎧 Obrolan Sora Dijempékeun ku {}!"
-admin_9 : "🎧 Obrolan Sora Tamat/Dieureunkeun ku {}!"
-admin_10 : "🎧 Obrolan Sora Luncat ku {}!. Teu aya deui Musik dina Antrian."
+admin_1 : "**musik geus diereunkeun.**"
+admin_2 : "✅ **obrolan sora diereunkeun**"
+admin_3 : "**musik geus diteruskeun.**"
+admin_4 : "✅ **obrolan sora diteruskeun**"
+admin_5 : "**musik geus dipareuman.**"
+admin_6 : "✅ **obrolan sora dijempékeun**"
+admin_7 : "**musik geus disada.**"
+admin_8 : "✅ **obrolan sora disadakeun**"
+admin_9 : "✅ __assistén ninggalkeun obrolan sora__"
+admin_10 : "✅ Obrolan Sora diluncatkeun ku {}!. Teu aya deui Musik dina Antrian."
 admin_11 : "Aya kasalahan nalika ngarobah aliran ka **{0}**\n\nPunten nganggo /skip deui."
 admin_12 : "Teu bisa ngaliwatan lagu nu tangtu sabab playback loop diaktipkeun. Punten pareuman playback loop liwat `/loop disable` pikeun ngagunakeun fitur ieu."
 admin_13 : "Punten nganggo nomer numerik kanggo lagu khusus, sapertos 1, 2 atanapi 4 jsb"
@@ -74,8 +74,8 @@ admin_34 : "Gagal mendakan aliran ayeuna."
 #bot
 
 # Start
-start_1 : "Hatur nuhun tos naroskeun ka abdi ka {0}.\n{1} masih keneh hirup.\n\nPikeun bantosan atanapi bantosan, hubungi nu gaduh bot."
-start_2 : "Héy!!\n\n💡Abdi {0} Vc Streaming, Abdi Diidinan Muter Musik sareng Pidio Sakur Dina Grup Atawa Saluran Anjeun\n\n🔖 Platform anu Didukung:\n• Youtube • Spotify • Resso\n • AppleMusic • Soundloud\n\n📚Ketok Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Kuring."
+start_1 : "Halo\n\nPikeun bantosan atanapi nanaon, hubungi nu gaduh bot."
+start_2 : "Hai!!\n\n💡 {0} Abdi Diidinan Muter Musik sareng Pidio Sakur Dina Obrolan Sora Grup Atawa Saluran Anjeun\n\n📚Pencét Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Na."
 start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
 start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
 start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
@@ -225,14 +225,14 @@ song_11 : "Unggahan Dimimitian\n\nLaju unggahna bisa jadi lambat. Mangga antosan
 queue_1 : "Punten Antosan..Nyandak Antrian.."
 queue_2 : "Daptar Antrian kosong. Teu kapanggih lagu"
 queue_3 : "<u>**Lagu Antrian:</u>** [Tingali Antrian Lain Ti dieu]({0})"
-queue_4 : "📍 Ditambahkeun kana posisi Antrian **#{0}\n\nᴥJudul:** {1}\n**ᴥDurasi:** {2}\nᴥ**Dipénta ku:** {3}"
+queue_4 : "📍 Ditambahkeun kana posisi Antrian **#{0}\n\nJudul:** {1}\n**Durasi:** {2}\n**Dipénta ku:** {3}"
 queue_5 : "Ngan hiji lagu dina antrian, mangga tambihan deui kana daptar antrian"
 
 # All Streaming Lines
-stream_1 : "ᴥ **Mimitian Streaming**\n\nᴥ **Inpormasi: **[Di dieu]({1})\nᴥ **Dipénta ku:** {0}"
-stream_2 : "ᴥ **Mimitian Streaming ngaliwatan URL**\n\nᴥ **Dipénta ku:** {0}"
-stream_3 : "ᴥ **Mimitian Streaming**\n\n**ᴥ Judul:** {0}\nᴥ **Durasi**: {1}\nᴥ **Dipénta ku:** {2}"
-stream_4 : "ᴥ **Mimitian Streaming**\n\n**ᴥ Judul:** [{0}]({1})\nᴥ **Durasi**: {2}\nᴥ **Dipénta ku:* *{3}"
+stream_1 : "**Mimitian Streaming**\n\n**Inpormasi: **[Di dieu]({1})\n**Dipénta ku:** {0}"
+stream_2 : "**Mimitian Streaming ngaliwatan URL**\n\n**Dipénta ku:** {0}"
+stream_3 : "**Mimitian Streaming**\n\n**Judul:** {0}\n**Durasi**: {1}\n**Dipénta ku:** {2}"
+stream_4 : "**Mimitian Streaming**\n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**Dipénta ku:* *{3}"
 
 # Inline Buttons
 
