@@ -6,7 +6,7 @@ general_2 : "Kesalahan! Penggunaan Perintah yang Salah."
 general_3 : "Beberapa **Kesalahan terjadi** saat memproses kueri Anda.\n\nAlasan:- {0}"
 general_4 : "Anda adalah admin anonim di grup obrolan ini!\nKembali kembali ke Akun Pengguna Dari Hak Admin."
 general_5 : "Anda harus menjadi admin dengan mengelola hak obrolan suara untuk melakukan tindakan ini."
-general_6 : "Tidak memutar apapun di obrolan suara."
+general_6 : "❌ Tidak memutar apapun di obrolan suara."
 
 # Classes - Telegram.py
 tg_1 : "Bot tidak bisa mengunduh sekarang.\n\n**Coba beberapa saat lagi."
@@ -14,11 +14,11 @@ tg_2 : "Gagal mengunduh media dari telegram."
 
 # Core - Call.py
 call_1 : "Bot memerlukan Izin **Admin** untuk mengundang akun asisten ke saluran Anda."
-call_2 : "Asisten diblokir di grup atau saluran Anda, harap batalkan pemblokiran.\n\n**Username Asisten:** @{0}\n**ID Asisten:** {1}"
-call_3 : "Pengecualian Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\n**Alasan**: {0}"
+call_2 : "Asisten Di Ban dari grup atau saluran Anda, Unban dulu.\n\n**Username Asisten:** @{0}\n**ID Asisten:** {1}"
+call_3 : "Kesalahan Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\n**Alasan**: {0}"
 call_4 : "Bot membutuhkan izin **Undang Pengguna Melalui Tautan** untuk mengundang akun asisten ke grup obrolan Anda."
-call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
-call_6 : "Akun Asisten[{0}] Berhasil Bergabung.\n\nMemulai Musik Sekarang"
+call_5 : "Asisten akan bergabung..."
+call_6 : "Asisten Berhasil Bergabung..."
 call_7 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **BAN PENGGUNA** dari bot."
 call_8 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **TAMBAHKAN ADMIN BARU** dari bot."
 call_9 : "**Gagal mengubah aliran**\nHarap gunakan /skip untuk mengubah trek lagi."
@@ -37,15 +37,15 @@ auth_8 : "┗ Ditambahkan oleh:-"
 
 # PLUGINS - Admins
 admin_1 : "Musik sudah Dijeda."
-admin_2 : "🎧 Obrolan Suara Dijeda oleh {}!"
+admin_2 : "✅ Obrolan Suara Dijeda."
 admin_3 : "Musik sudah dilanjutkan."
-admin_4 : "🎧 Obrolan Suara Dilanjutkan oleh {}!"
+admin_4 : "✅ Obrolan Suara Dilanjutkan."
 admin_5 : "Musik sudah dimatikan."
-admin_6 : "🎧 Obrolan Suara Dibisukan oleh {}!"
+admin_6 : "✅ Obrolan Suara Dibisukan."
 admin_7 : "Musik sudah disuarakan."
-admin_8 : "🎧 Obrolan Suara Dibisukan oleh {}!"
-admin_9 : "🎧 Obrolan Suara Berakhir/Dihentikan oleh {}!"
-admin_10 : "🎧 Obrolan Suara Dilewati oleh {}!. Tidak Ada Lagi Musik di Antrian."
+admin_8 : "✅ Obrolan Suara Disuarakan."
+admin_9 : "✅ Asisten meninggalkan obrolan suara."
+admin_10 : "✅ Obrolan Suara Dilewati oleh {}!. Tidak Ada Lagi Musik di Antrian."
 admin_11 : "Terjadi kesalahan saat mengubah aliran ke **{0}**\n\nSilakan gunakan /skip lagi."
 admin_12 : "Tidak dapat melompat ke trek tertentu karena pemutaran loop diaktifkan. Harap nonaktifkan pemutaran loop melalui `/loop disable` untuk menggunakan fitur ini."
 admin_13 : "Silakan gunakan nomor numerik untuk trek tertentu, seperti 1, 2 atau 4 dll"
@@ -74,8 +74,8 @@ admin_34 : "Gagal mencari aliran saat ini."
 # Bot 
 
 # Start
-start_1 : "Terima kasih telah meminta saya untuk {0}.\n{1} masih hidup.\n\nUntuk bantuan atau bantuan apa pun, kontak pemilik bot."
-start_2 : "Hei!!\n\n💡Saya {0} Bot Vc Streaming Telegram, Saya Diizinkan Memutar Musik Dan Video Apa Pun Di Grup Atau Saluran Vc Anda\n\n🔖 Platform yang Didukung:\n• Youtube • Spotify • Resso\n• AppleMusic • Soundloud\n\n📚 Ketuk Tombol Di Bawah Untuk Melihat Cara Menggunakan Saya ❓"
+start_1 : "{0} Ditambahkan ke {1}.\n\nUntuk bantuan atau apa pun, kontak pemilik bot."
+start_2 : "Hallo!!\n\n💡 {0} diizinkan untuk memutar musik atau video di obrolan suara grup atau channel.\n\n📚 Tekan Tombol Di Bawah Untuk Melihat Cara Penggunaan nya."
 start_3 : "Hallo!\n\nTambahkan Asisten Secara Manual jika asisten tidak dapat bergabung secara otomatis.\nUsername Asisten:- @{1}\nID Asisten:- {2}"
 start_4 : "[{1}], Pemilik Bot {0} baru saja bergabung ke obrolan grup."
 start_5 : "Anggota dari {0} Pengguna Sudo[{1}] baru saja bergabung ke obrolan grup."
@@ -225,14 +225,14 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Mohon 
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Trek Antrian:</u>**  [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "📍 Ditambahkan ke Antrian posisi **#{0}\n\nᴥJudul:** {1}\n**ᴥDurasi:** {2}\nᴥ**Diminta oleh:** {3}"
+queue_4 : "📍 Ditambahkan ke Antrian **#{0}\n\nJudul:** {1}\n**Durasi:** {2}\n**Diminta oleh:** {3}"
 queue_5 : "Hanya satu trek di dalam antrian, Silakan tambahkan lagi ke daftar antrian"
 
 # All Streaming Lines
-stream_1 : "ᴥ **Mulai Streaming**\n\nᴥ **Informasi: **[Di sini]({1})\nᴥ **Diminta oleh:** {0}"
-stream_2 : "ᴥ **Mulai Streaming melalui URL**\n\nᴥ **Diminta oleh:** {0}"
-stream_3 : "ᴥ **Mulai Streaming**\n\n**ᴥ Judul:** {0}\nᴥ **Durasi**: {1}\nᴥ **Diminta oleh:** {2}"
-stream_4 : "ᴥ **Mulai Streaming**\n\n**ᴥ Judul:** [{0}]({1})\nᴥ **Durasi**: {2}\nᴥ **Diminta oleh:** {3}"
+stream_1 : "**Mulai Streaming**\n\n**Informasi: **[Di sini]({1})\n**Diminta oleh:** {0}"
+stream_2 : "**Mulai Streaming melalui URL**\n\n**Diminta oleh:** {0}"
+stream_3 : "**Mulai Streaming**\n\n**Judul:** {0}\n**Durasi**: {1}\n**Diminta oleh:** {2}"
+stream_4 : "**Mulai Streaming**\n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**Diminta oleh:** {3}"
 
 # Inline Buttons
 
