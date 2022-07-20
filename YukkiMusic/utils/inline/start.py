@@ -67,18 +67,11 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons.append(
             [
                 InlineKeyboardButton(
-                text=_["ST_B_6"], callback_data="LG"
-                ),
-            ]
-        )
-    buttons.append(
-            [
-                InlineKeyboardButton(
                 text=_["S_B_4"],
                 url=f"{SUPPORT_CHANNEL}",
                 ),
                 InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
+                text=_["ST_B_6"], callback_data="LG"
                 ),
             ]
         )
