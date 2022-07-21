@@ -91,9 +91,6 @@ async def gen_thumb(videoid):
         draw.text(
             (400, 400),
             "PLAYING",
-            fill="white",
-            stroke_width=2,
-            stroke_fill="white",
             font=arial,
         )
         for line in para:
@@ -119,19 +116,19 @@ async def gen_thumb(videoid):
                 )
 
         draw.text(
-            (400, 600),
+            (500, 600),
             f"Views : {views[:23]}",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
-            (400, 650),
+            (500, 650),
             f"Duration : {duration[:23]} Mins",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
-            (400, 700),
+            (500, 700),
             f"Channel : {channel}",
             (255, 255, 255),
             font=arial,
