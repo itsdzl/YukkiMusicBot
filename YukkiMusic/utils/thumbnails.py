@@ -111,19 +111,19 @@ async def gen_thumb(videoid):
                 )
 
         draw.text(
-            (600, 450),
+            (400, 600),
             f"Views : {views[:23]}",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
-            (600, 500),
+            (400, 650),
             f"Duration : {duration[:23]} Mins",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
-            (600, 550),
+            (400, 700),
             f"Channel : {channel}",
             (255, 255, 255),
             font=arial,
