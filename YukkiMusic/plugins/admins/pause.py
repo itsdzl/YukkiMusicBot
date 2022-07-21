@@ -36,5 +36,4 @@ async def pause_admin(cli, message: Message, _, chat_id):
     await music_off(chat_id)
     await Yukki.pause_stream(chat_id)
     await message.reply_text(
-        _["admin_2"].format(message.from_user.mention)
-    )
+        _["admin_2"])
