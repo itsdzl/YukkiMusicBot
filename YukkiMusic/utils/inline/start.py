@@ -75,4 +75,11 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 ),
             ]
         )
+    buttons.append(
+            [
+                InlineKeyboardButton(
+                text=_["CLOSE_BUTTON"], callback_data=f"close"
+                ),
+            ]
+        )
     return buttons
