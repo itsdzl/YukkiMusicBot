@@ -74,7 +74,8 @@ HELP_4 = """✘ <u>**Extra  Commands:**</u>
 ◉ /help  - Get Commands Helper Menu with detailed explanations of commands.
 ◉ /ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
 
-HELP_5 = """✘ **ADD & REMOVE SUDO USERS :**
+
+HELP_5 = """✘ **<u>ADD & REMOVE SUDO USERS :</u>**
 ◉ /addsudo [Username or Reply to a user]
 ◉ /delsudo [Username or Reply to a user]
 
