@@ -117,16 +117,16 @@ HELP_5 = """✘ **<u>ADD & REMOVE SUDO USERS :</u>**
 ◉ /gbannedusers - Check Gbanned Users Lists
 
 ✘ **<u>VIDEOCALLS FUNCTION:</u>**
-/set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
-/videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
+◉ /set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
+◉ /videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
 
 ✘ **<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
+◉ /authorize [CHAT_ID] - Allow a chat for using your bot.
+◉ /unauthorize [CHAT_ID] - Disallow a chat from using your bot.
+◉/authorized - Check all allowed chats of your bot.
 
 ✘ **<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+◉ /broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
 
 <u>options for broadcast:</u>
 **-pin** : This will pin your message 
