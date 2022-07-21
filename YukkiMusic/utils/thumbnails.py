@@ -72,8 +72,8 @@ async def gen_thumb(videoid):
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(0.6)
-        Xcenter = youtube.width / 1
-        Ycenter = youtube.height / 1
+        Xcenter = youtube.width / 2
+        Ycenter = youtube.height / 2
         x1 = Xcenter - 250
         y1 = Ycenter - 250
         x2 = Xcenter + 250
