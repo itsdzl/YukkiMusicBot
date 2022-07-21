@@ -44,7 +44,7 @@ admin_5 : "**musik sudah dimatikan.**"
 admin_6 : "✅ __Obrolan Suara Dibisukan.__"
 admin_7 : "**musik sudah disuarakan.**"
 admin_8 : "✅ __Obrolan Suara Disuarakan.__"
-admin_9 : "✅ __Asisten meninggalkan obrolan suara.__"
+admin_9 : "✅ __Assisten meninggalkan obrolan suara.__"
 admin_10 : "✅ Obrolan Suara Dilewati oleh {}!. Tidak Ada Lagi Musik di Antrian."
 admin_11 : "Terjadi kesalahan saat mengubah aliran ke **{0}**\n\nSilakan gunakan /skip lagi."
 admin_12 : "Tidak dapat melompat ke trek tertentu karena pemutaran loop diaktifkan. Harap nonaktifkan pemutaran loop melalui `/loop disable` untuk menggunakan fitur ini."
@@ -83,7 +83,7 @@ start_6 : "❗️ **Dibutuhkan Supergrup** ❗️\n\nHarap ubah **grup** Anda me
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan daftar hitam oleh Bot. Silakan minta pengguna sudo atau owner bot untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "💡 Klik tombol di bawah untuk informasi lebih lanjut. Jika Anda menghadapi masalah dalam perintah, Anda dapat menghubungi pemilik bot saya dan menanyakannya.\n\n📍 Semua perintah, hanya dapat digunakan dengan: /"
+help_1 : "💡 Klik tombol di bawah untuk informasi lebih lanjut."
 help_2 : "Klik tombol di bawah ini."
 
 # Settings
@@ -142,8 +142,8 @@ cplay_5 : "Hanya Saluran yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** saluran[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Saluran:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke saluran itu lalu coba sambungkan dengan `/channelplay terhubung`"
 
 #Play
-play_1 : "✘ **Sedang memproses...!**"
-play_2 : "**✘ Mode Putar Saluran**\n\n✘ Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
+play_1 : "🔎 **Sedang memproses...!**"
+play_2 : "**Mode Putar Saluran**\n\n🔎 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses kueri!"
 play_4 : "🖇 **Hanya Admin**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang dari 100 mb"
@@ -240,7 +240,7 @@ stream_4 : "**Mulai Streaming**\n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**Dim
 CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
 CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
 BACK_BUTTON : "« ᴋ​​ᴇᴍʙᴀʟɪ​"
-UNBAN_BUTTON : "ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
+UNBAN_BUTTON : "Unban Assisten​"
 
 # Panel Markup
 P_M_1 : ⏩ 10 Detik
@@ -249,12 +249,12 @@ P_M_3 : ⏪ 10 Detik
 P_M_4 : ⏪ 30 Detik
 
 #Lyrics
-L_B_1 : "ʟɪʜᴀᴛ ʟɪʀɪᴋ​​"
+L_B_1 : "Lihat Lirik​​"
 
 # Start
-S_B_1 : "ᴘᴇʀɪɴᴛᴀʜ​"
-S_B_2 : "ᴘᴇɴɢᴀᴛᴜʀᴀɴ​"
-S_B_3 : "ɢʀᴜᴘ​"
+S_B_1 : "Perintah​"
+S_B_2 : "Pengaturan​"
+S_B_3 : "Grup​"
 S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
 S_B_5 : "✚ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ​"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
@@ -262,12 +262,12 @@ S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
 S_B_8 : "• ᴍᴇɴᴜ •​​"
 
 #Help 
-H_B_1 : "ᴘᴇʀɪɴᴛᴀʜ​ ᴀᴅᴍɪɴ"
-H_B_2 : "ᴘᴇʀɪɴᴛᴀʜ ᴍᴇᴍᴜᴛᴀʀ​"
-H_B_3 : "ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛ"
-H_B_4 : "ᴛᴀᴍʙᴀʜᴀɴ​"
-H_B_5 : "ᴛᴜᴛᴜᴘ ᴍᴇɴᴜ"
-H_B_6 : "ᴘᴇʀɪɴᴛᴀʜ sᴜᴅᴏ"
+H_B_1 : "Perintah Admin"
+H_B_2 : "Perintah Memutar​"
+H_B_3 : "Perintah Bot"
+H_B_4 : "Tambahan​"
+H_B_5 : "Tutup Menu"
+H_B_6 : "🌟"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -294,33 +294,33 @@ PL_B_10 : "ᴘᴜᴛᴀʀ 10 ᴛᴏᴘ ᴛʀᴇᴋ​​​"
 PL_B_11 : "ᴘᴜᴛᴀʀ 10 ᴛᴏᴘ ᴘʀɪʙᴀᴅɪ​​​"
 
 #Settings
-ST_B_1 : "ᴋᴜᴀʟɪᴛᴀs​ ᴀᴜᴅɪᴏ​"
-ST_B_2 : "ᴋᴜᴀʟɪᴛᴀs​ ᴠɪᴅᴇᴏ​"
-ST_B_3 : "ᴘᴇɴɢɢᴜɴᴀ​ ᴀᴜᴛʜ​"
-ST_B_4 : "ᴅᴀsʙᴏʀ​​"
-ST_B_5 : "ᴍᴏᴅᴇ ᴘᴇᴍᴜᴛᴀʀᴀɴ"
+ST_B_1 : "Kualitas Audio​"
+ST_B_2 : "Kualitas Video​"
+ST_B_3 : "Pengguna Auth​"
+ST_B_4 : "Dasbor​​"
+ST_B_5 : "Mode Pemutaran"
 ST_B_6 : "ʙᴀʜᴀsᴀ​"
-ST_B_7 : "ᴍᴏᴅᴇ ᴄʟᴇᴀɴ"
+ST_B_7 : "Mode Clean"
 ST_B_8 : "{0} Audio Berkualitas Rendah"
 ST_B_9 : "{0} Audio Kualitas Sedang"
 ST_B_10 : "{0} Audio Berkualitas Tinggi"
 ST_B_11 : "{0} Video Kualitas Rendah"
 ST_B_12 : "{0} Video Kualitas Sedang"
 ST_B_13 : "{0} Video Berkualitas Tinggi"
-ST_B_14 : "✓ ᴀᴋᴛɪꜰ​"
-ST_B_15 : "✗ ɴᴏɴ-ᴀᴋᴛɪꜰ​​"
-ST_B_16 : "ʜᴀɴʏᴀ ᴀᴅᴍɪɴ​​"
-ST_B_17 : "sᴇᴍᴜᴀ ᴏʀᴀɴɢ​​"
-ST_B_18 : "ᴅᴀꜰᴛᴀʀ ᴘᴇɴɢɢᴜɴᴀ ʀᴇsᴍɪ​"
-ST_B_19 : "ᴍᴏᴅᴇ ᴄᴀʀɪ​​"
-ST_B_20 : "✓ ᴅɪʀᴇᴄᴛ"
-ST_B_21 : "✓ ɪɴʟɪɴᴇ"
-ST_B_22 : "ᴘᴇʀɪɴᴛᴀʜ​ ᴀᴅᴍɪɴ"
-ST_B_23 : "🏘 ɢʀᴜᴘ"
-ST_B_24 : "🏷 sᴀʟᴜʀᴀɴ​​"
-ST_B_25 : "ᴍᴏᴅᴇ ᴘᴇᴍᴜᴛᴀʀᴀɴ"
-ST_B_26 : "✗ ᴄᴏᴍᴍᴀɴᴅ ᴄʟᴇᴀɴ​"
-ST_B_27 : "ᴍᴏᴅᴇ sᴀʀᴀɴ​"
+ST_B_14 : "✓ Aktif​"
+ST_B_15 : "✗ Non-Aktif​​"
+ST_B_16 : "Hanya Admin​​"
+ST_B_17 : "Semua Orang​​"
+ST_B_18 : "Daftar Pengguna Auth​"
+ST_B_19 : "Pencarian​​"
+ST_B_20 : "✓ Langsung"
+ST_B_21 : "✓ Inline"
+ST_B_22 : "Perintah Admin"
+ST_B_23 : "🏘 Grup"
+ST_B_24 : "🏷 Saluran​​"
+ST_B_25 : "Mode Pemutaran"
+ST_B_26 : "✗ Hapus Perintah​"
+ST_B_27 : "Mode Saran​"
 
 #Song
 SG_B_1 : "ᴋʟɪᴋ ᴅɪsɪɴɪ​​"
