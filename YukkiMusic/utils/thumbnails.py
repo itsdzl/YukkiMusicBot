@@ -69,7 +69,7 @@ async def gen_thumb(videoid):
         y1 = Ycenter - 170
         x2 = Xcenter + 250
         y2 = Ycenter + 170
-        logo = changeImageSize(950, 550, youtube)
+        logo = changeImageSize(1000, 700, youtube)
         logo.thumbnail((520, 520), Image.ANTIALIAS)
         background.paste(logo, (400, 50))
         draw = ImageDraw.Draw(background)
