@@ -79,23 +79,8 @@ async def gen_thumb(videoid):
         name_font = ImageFont.truetype("assets/font.ttf", 30)
         para = textwrap.wrap(title, width=32)
         j = 0
-        draw.text(
-            (400, 400),
-            "PLAYING",
-            font=arial,
-        )
         for line in para:
             if j == 1:
-                j += 1
-                draw.text(
-                    (400, 450),
-                    f"{line}",
-                    fill="white",
-                    stroke_width=1,
-                    stroke_fill="white",
-                    font=font,
-                )
-            if j == 0:
                 j += 1
                 draw.text(
                     (400, 500),
@@ -105,22 +90,20 @@ async def gen_thumb(videoid):
                     stroke_fill="white",
                     font=font,
                 )
+            if j == 0:
+                j += 1
+                draw.text(
+                    (400, 550),
+                    f"{line}",
+                    fill="white",
+                    stroke_width=1,
+                    stroke_fill="white",
+                    font=font,
+                )
 
-        draw.text(
-            (500, 550),
-            f"Views : {views[:23]}",
-            (255, 255, 255),
-            font=arial,
-        )
         draw.text(
             (500, 600),
             f"Duration : {duration[:23]} Mins",
-            (255, 255, 255),
-            font=arial,
-        )
-        draw.text(
-            (500, 650),
-            f"Channel : {channel}",
             (255, 255, 255),
             font=arial,
         )
