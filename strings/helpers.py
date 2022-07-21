@@ -72,7 +72,7 @@ HELP_4 = """✘ <u>**Extra  Commands:**</u>
 
 ◉ /start - Start the Music Bot.
 ◉ /help  - Get Commands Helper Menu with detailed explanations of commands.
-◉ /ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
+◉ /ping- Ping the Bot For Checking Bot Response."""
 
 
 HELP_5 = """✘ **<u>ADD & REMOVE SUDO USERS :</u>**
