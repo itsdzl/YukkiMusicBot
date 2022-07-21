@@ -80,7 +80,7 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (400, 400),
+            (450, 400),
             "PLAYING",
             font=arial,
         )
@@ -88,7 +88,7 @@ async def gen_thumb(videoid):
             if j == 1:
                 j += 1
                 draw.text(
-                    (400, 450),
+                    (450, 450),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
@@ -98,7 +98,7 @@ async def gen_thumb(videoid):
             if j == 0:
                 j += 1
                 draw.text(
-                    (400, 500),
+                    (450, 500),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
@@ -107,19 +107,19 @@ async def gen_thumb(videoid):
                 )
 
         draw.text(
-            (500, 550),
+            (550, 550),
             f"Views : {views[:23]}",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
-            (500, 600),
+            (550, 600),
             f"Duration : {duration[:23]} Mins",
             (255, 255, 255),
             font=arial,
         )
         draw.text(
-            (500, 650),
+            (550, 650),
             f"Channel : {channel}",
             (255, 255, 255),
             font=arial,
