@@ -83,7 +83,7 @@ start_6 : "❗️ **Supergroup Diperyogikeun** ️\n\nMangga gentos **group** an
 start_7 : "**Obrolan Daptar Hideung**\n\nObrolan anjeun geus di-blacklist ku Bot. Mangga ménta pamaké sudo atawa nu boga bot pikeun whitelist chat heula. Pariksa [Sudolist ti dieu]({0})"
 
 # Help
-help_1 : "💡 Klik tombol di handap pikeun inpormasi anu langkung lengkep. Upami anjeun nyanghareupan masalah sareng paréntah, anjeun tiasa ngahubungi anu gaduh bot kuring sareng naroskeun ngeunaan éta.\n\n📍 Sadaya paréntah, ngan tiasa dianggo sareng: /"
+help_1 : "💡 Klik tombol di handap ieu."
 help_2 : "Pencét tombol di handap."
 
 # Settings
@@ -142,8 +142,8 @@ cplay_5 : "Ngan Saluran anu dirojong."
 cplay_6 : "Anjeun kedah janten **Pamilik** saluran[{0}] pikeun ngahubungkeun éta sareng grup ieu.\n**Pamilik Saluran:** @{1}\n\nAtawa anjeun tiasa ngaitkeun grup anjeun ka saluran éta sareng cobian sambungkeun sareng `/channelplay connect`"
 
 #Play
-play_1 : "✘ **Antosan Sakedap...**"
-play_2 : "**✘ Modeu Puter Saluran**\n\n✘ Ngolah Paménta... Antosan Sakedap...\n**Saluran Numbu:** {0}"
+play_1 : "🔎 **Antosan Sakedap...**"
+play_2 : "**Modeu Puter Saluran**\n\n🔎 Ngolah Paménta... Antosan Sakedap...\n**Saluran Numbu:** {0}"
 play_3 : "Gagal Ngolah Paménta!"
 play_4 : "🖇 **Ngan Admin**\nNgan Pamaké Admin sareng Auth anu tiasa maénkeun musik dina grup ieu.\n\nGanti modeu liwat /playmode sareng upami anjeun parantos janten admin, muatkeun deui admincache ngalangkungan /admincache"
 play_5 : "Gagal ngolah file audio.\n\nUkuran File Audio Kudu Kurang ti 100 mb"
@@ -240,7 +240,7 @@ stream_4 : "**Mimitian Streaming**\n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**
 CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
 CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
 BACK_BUTTON : "« ʙᴀʟɪᴋ​​"
-UNBAN_BUTTON : "ᴜɴʙᴀɴ ᴀsɪsᴛᴇɴ​"
+UNBAN_BUTTON : "Unban Assisten​"
 
 # Panel Markup
 P_M_1 : ⏩ 10 Detik
@@ -249,12 +249,12 @@ P_M_3 : ⏪ 10 Detik
 P_M_4 : ⏪ 30 Detik
 
 #Lyrics
-L_B_1 : "ᴛɪɴɢɢᴀʟ​ ʟɪʀɪᴋ​​"
+L_B_1 : "Tinggal Lirik​​"
 
 # Start
-S_B_1 : "ᴘᴀʀᴇɴᴛᴀʜ​​"
-S_B_2 : "sᴇᴛᴇʟᴀɴ​​"
-S_B_3 : "ɢʀᴜᴘ​"
+S_B_1 : "Paréntah​​"
+S_B_2 : "Setélan​​"
+S_B_3 : "Grup​"
 S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
 S_B_5 : "✚ ᴛᴀᴍʙᴀʜᴋᴇᴜɴ ᴋᴀ​ ɢʀᴜᴘ​"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
@@ -262,12 +262,12 @@ S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
 S_B_8 : "• ᴍᴇɴᴜ •​​​"
 
 #Help 
-H_B_1 : "ᴘᴀʀᴇɴᴛᴀʜ​ ᴀᴅᴍɪɴ"
-H_B_2 : "ᴘᴀʀᴇɴᴛᴀʜ ᴍᴀᴇɴ​​"
-H_B_3 : "ᴘᴀʀᴇɴᴛᴀʜ ʙᴏᴛ"
-H_B_4 : "ᴛᴀᴍʙᴀʜᴀɴ​"
-H_B_5 : "ᴛᴜᴛᴜᴘ ᴍᴇɴᴜ"
-H_B_6 : "ᴘᴀʀᴇɴᴛᴀʜ sᴜᴅᴏ"
+H_B_1 : "Paréntah Admin"
+H_B_2 : "Paréntah Maén​​"
+H_B_3 : "Paréntah Bot"
+H_B_4 : "Tambahan​"
+H_B_5 : "Tutup Menu"
+H_B_6 : "🌟"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -292,33 +292,33 @@ PL_B_10 : "ᴘᴜᴛᴇʀ 10 ᴛᴏᴘ ᴛʀᴇᴋ​​​"
 PL_B_11 : "ᴘᴜᴛᴇʀ 10 ᴛᴏᴘ ᴘʀɪʙᴀᴅɪ​​​"
 
 #Settings
-ST_B_1 : "ᴋᴜᴀʟɪᴛᴀs​ ᴀᴜᴅɪᴏ​"
-ST_B_2 : "ᴋᴜᴀʟɪᴛᴀs​ ᴠɪᴅᴇᴏ​"
-ST_B_3 : "ᴘᴀᴍᴀᴋᴇ​​ ᴀᴜᴛʜ​"
-ST_B_4 : "ᴅᴀsʙᴏʀ​​"
-ST_B_5 : "ᴍᴏᴅᴇ ᴘᴀᴍᴜᴛᴇʀᴀɴ"
+ST_B_1 : "Kualitas Audio​"
+ST_B_2 : "Kualitas Video​"
+ST_B_3 : "Pamaké Auth​"
+ST_B_4 : "Dasbor​​"
+ST_B_5 : "Mode Pamuteran"
 ST_B_6 : "ʙᴀʜᴀsᴀ​"
-ST_B_7 : "ᴍᴏᴅᴇ ʙᴇʀᴇsɪʜ​"
+ST_B_7 : "Mode Clean​"
 ST_B_8 : "{0} Audio Kualitas Lemah"
 ST_B_9 : "{0} Audio Kualitas Sedeng"
 ST_B_10 : "{0} Audio Kualitas Luhur"
 ST_B_11 : "{0} Pidéo Kualitas Lemah"
 ST_B_12 : "{0} Pidéo Kualitas Sedeng"
 ST_B_13 : "{0} Pidéo Kualitas Luhur"
-ST_B_14 : "✓ ᴀᴋᴛɪꜰ​"
-ST_B_15 : "✗ ɴᴏɴ-ᴀᴋᴛɪꜰ​​"
-ST_B_16 : "ɴɢᴀɴ​ ᴀᴅᴍɪɴ​​"
-ST_B_17 : "ᴅᴜʟᴜʀ​​​​"
-ST_B_18 : "ᴅᴀᴘᴛᴀʀ ᴘᴀᴍᴀᴋᴇ​ ʀᴇsᴍɪ​"
-ST_B_19 : "ᴍᴏᴅᴇ ᴛᴇᴀɴɢ​​​"
-ST_B_20 : "✓ ʟᴀɴɢsᴜɴɢ​"
-ST_B_21 : "✓ ɪɴʟɪɴᴇ"
-ST_B_22 : "ᴘᴀʀᴇɴᴛᴀʜ​ ᴀᴅᴍɪɴ"
-ST_B_23 : "🏘 ɢʀᴜᴘ"
-ST_B_24 : "🏷 sᴀʟᴜʀᴀɴ​​"
-ST_B_25 : "ᴍᴏᴅᴇ ᴘᴀᴍᴜᴛᴇʀᴀɴ"
-ST_B_26 : "✗ ᴄᴏᴍᴍᴀɴᴅ ᴄʟᴇᴀɴ​"
-ST_B_27 : "ᴍᴏᴅᴇ sᴀʀᴀɴ​"
+ST_B_14 : "✓ Aktif​"
+ST_B_15 : "✗ Non-Aktif​​"
+ST_B_16 : "Ngan Admin​​"
+ST_B_17 : "Kabéh​​​​"
+ST_B_18 : "Daptar Pamaké Auth​"
+ST_B_19 : "Mode Panéang​​​"
+ST_B_20 : "✓ Langsung​"
+ST_B_21 : "✓ Inline"
+ST_B_22 : "Paréntah Admin"
+ST_B_23 : "🏘 Grup"
+ST_B_24 : "🏷 Saluran​​"
+ST_B_25 : "Mode Pamuteran"
+ST_B_26 : "Hapus Paréntah"
+ST_B_27 : "Mode Saran​"
 
 #Song
 SG_B_1 : "ᴘᴇɴᴄᴇᴛ ɪᴇᴜ​​​"
