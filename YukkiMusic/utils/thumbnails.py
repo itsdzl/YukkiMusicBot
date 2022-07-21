@@ -83,7 +83,7 @@ async def gen_thumb(videoid):
             if j == 1:
                 j += 1
                 draw.text(
-                    (350, 550),
+                    (300, 550),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
@@ -102,7 +102,7 @@ async def gen_thumb(videoid):
                 )
 
         draw.text(
-            (500, 650),
+            (500, 680),
             f"Duration : {duration[:23]} Mins",
             (255, 255, 255),
             font=arial,
