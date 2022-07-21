@@ -1,12 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-
 import os
 import re
 import textwrap
@@ -80,16 +71,16 @@ async def gen_thumb(videoid):
         y2 = Ycenter + 170
         logo = changeImageSize(950, 550, youtube)
         logo.thumbnail((520, 520), Image.ANTIALIAS)
-        background.paste(logo, (400, 30))
+        background.paste(logo, (400, 50))
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("assets/font2.ttf", 40)
-        font2 = ImageFont.truetype("assets/font2.ttf", 70)
-        arial = ImageFont.truetype("assets/font2.ttf", 30)
-        name_font = ImageFont.truetype("assets/font.ttf", 30)
+        font = ImageFont.truetype("assets/font2.ttf", 30)
+        font2 = ImageFont.truetype("assets/font2.ttf", 60)
+        arial = ImageFont.truetype("assets/font2.ttf", 20)
+        name_font = ImageFont.truetype("assets/font.ttf", 20)
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (500, 450),
+            (400, 400),
             "PLAYING",
             font=arial,
         )
@@ -97,7 +88,7 @@ async def gen_thumb(videoid):
             if j == 1:
                 j += 1
                 draw.text(
-                    (400, 500),
+                    (400, 450),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
@@ -107,12 +98,32 @@ async def gen_thumb(videoid):
             if j == 0:
                 j += 1
                 draw.text(
-                    (400, 550),
+                    (400, 500),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
+                )
+
+        draw.text(
+            (500, 550),
+            f"Views : {views[:23]}",
+            (255, 255, 255),
+            font=arial,
+        )
+        draw.text(
+            (500, 600),
+            f"Duration : {duration[:23]} Mins",
+            (255, 255, 255),
+            font=arial,
+        )
+        draw.text(
+            (500, 650),
+            f"Channel : {channel}",
+            (255, 255, 255),
+            font=arial,
+        )
         try:
             os.remove(f"cache/thumb{videoid}.png")
         except:
