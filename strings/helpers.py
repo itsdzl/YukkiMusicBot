@@ -54,7 +54,7 @@ HELP_4 = """✘ <u>**Extra  Commands:**</u>
 ◉ /stats - Get Bot Stats.
 ◉ /sudolist - Check Sudo Users.
 ◉ /lyrics [Music Name] - Search Music Lyrics.
-◉ /song [query] - Download Music or Video.
+◉ /song [query] - Download Music or Video."""
 
 HELP_5 = """✘ **<u>ADD & REMOVE SUDO USERS :</u>**
 ◉ /addsudo [Username or Reply to a user]
