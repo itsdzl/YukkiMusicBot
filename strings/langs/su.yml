@@ -160,7 +160,7 @@ play_15 : "**Siaran Langsung Dideteksi**\n\nSistem parantos ngadeteksi tautan la
 play_16 : "Gagal meunangkeun deui detil lagu. Coba ulinkeun nu séjén."
 play_17 : "Teu bisa maénkeun jenis query spotify ieu!\n\nKuring ngan bisa maénkeun lagu spotify, albeum, artis jeung playlist"
 play_18 : "**Obrolan Sora Aktif Teu Dipanggihan**\n\nPikeun make fitur force play, kudu aya obrolan sora aktip dina grup anjeun. **Force Play** ngeureunkeun lagu nu diputer dina obrolan sora jeung mimiti muterkeun lagu anu anjeun pikahoyong. milarian."
-
+A_E_1   : "Teu aya anu ngadangukeun.\n✅ __assistén ninggalkeun obrolan sora.__"
 
 #Playlist
 playlist_1 : "**Usage:** /play [Ngaran Lagu atau Link Ti Youtube]\n\nUpami anjeun hoyong maénkeun Bot Server Playlist! Pencét tombol di handap."
