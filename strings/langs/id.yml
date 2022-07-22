@@ -142,8 +142,8 @@ cplay_5 : "Hanya Saluran yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** saluran[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Saluran:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke saluran itu lalu coba sambungkan dengan `/channelplay terhubung`"
 
 #Play
-play_1 : "🔎 **Sedang memproses...!**"
-play_2 : "**Mode Putar Saluran**\n\n🔎 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
+play_1 : "🔎 **Sedang memproses...**"
+play_2 : "**Mode Putar Saluran**\n\n🔎 Memproses... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses kueri!"
 play_4 : "🖇 **Hanya Admin**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang dari 100 mb"
