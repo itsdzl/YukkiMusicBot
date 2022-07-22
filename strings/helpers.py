@@ -8,53 +8,32 @@
 # All rights reserved.
 
 HELP_1 = """✘ **<u>Admin Commands:</u>**
-
-**C** stands for channel play.
-
-◉ /pause or /cpause - Pause the playing music.
-◉ /resume or /cresume- Resume the paused music.
-◉ /mute or /cmute- Mute the playing music.
-◉ /unmute or /cunmute- Unmute the muted music.
-◉ /skip or /cskip- Skip the current playing music.
-◉ /stop or /cstop- Stop the playing music.
-◉ /shuffle or /cshuffle- Randomly shuffles the queued playlist.
-◉ /seek or /cseek - Forward Seek the music to your duration
-◉ /seekback or /cseekback - Backward Seek the music to your duration
-◉ /restart - Restart bot for your chat .
-
-✘ <u>**Loop Play:**</u>
-
-◉ /loop or /cloop [1-10] 
-    - When activated, the bot will repeat playback for 1-10 times in voice chat.
+◉ /pause - Pause Streaming.
+◉ /resume - Resume The Paused Streaming.
+◉ /skip - Skip Currently Playing.
+◉ /end - Stop Streaming.
+◉ /restart - Restart Bot From Chat.
+  ┗ /cpause | /cresume | /cskip | /cstop - for channel play.
 
 ✘ <u>**Auth Users:**</u>
+User can use admin command without admin rights in ur chat.
 
-Auth users can use admin commands without admin rights in your chats.
-
-◉ /auth [Username] - Add a user to AUTH LIST of the group.
-◉ /unauth [Username] - Remove a user from AUTH LIST of the group.
-◉ /authusers - Check AUTH LIST of the group."""
-
+◉ /auth [Username] - Add Auth User in ur Chat.
+◉ /unauth [Username] - Remove Auth User in ur Chat.
+◉ /authusers - Check Auth List in ur Chat."""
 
 HELP_2 = """✘ <u>**Play Commands:**</u>
+◉ /play [query] - Playing Music.
+◉ /vplay [query] - Playing Video.
+◉ /cplay [query] - Channel Player.
+◉ /player - Check Currently Playing in Group.
+◉ /cplayer- Check Currently Playing in Channel.
+◉ /channelplay [usname ch or id] - connect ur channel to group.
 
-• Available Commands = play , vplay , cplay
-• ForcePlay Commands = playforce , vplayforce , cplayforce
-
-**C** stands for channel play.
-**V** stands for video play.
-**Force** stands for force play.
-
-◉ /play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
-◉ /playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
-◉ /channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
-
-
-✘ **<u>Bot's Server Playlists:</u>**
-◉ /playlist  - Check Your Saved Playlist On Servers.
-◉ /deleteplaylist - Delete any saved music in your playlist
-◉ /play  - Start playing Your Saved Playlist from Servers."""
-
+✘ **<u>Personal Playlist:</u>**
+◉ /playlist - Check Your Saved Playlist.
+◉ /deleteplaylist - Delete or Reset Your Playlist.
+◉ /play - Without Query to Playing Your Playlist."""
 
 HELP_3 = """✘ <u>**Bot Commands:**</u>
 
@@ -69,11 +48,13 @@ HELP_3 = """✘ <u>**Bot Commands:**</u>
 ◉ /queue or /cqueue- Check Queue List of Streaming."""
 
 HELP_4 = """✘ <u>**Extra  Commands:**</u>
-
 ◉ /start - Start the Music Bot.
 ◉ /help  - Get Commands Helper Menu with detailed explanations of commands.
-◉ /ping- Ping the Bot For Checking Bot Response."""
-
+◉ /ping- Ping the Bot For Checking Bot Response.
+◉ /stats - Get Bot Stats.
+◉ /sudolist - Check Sudo Users.
+◉ /lyrics [Music Name] - Search Music Lyrics.
+◉ /song [query] - Download Music or Video.
 
 HELP_5 = """✘ **<u>ADD & REMOVE SUDO USERS :</u>**
 ◉ /addsudo [Username or Reply to a user]
