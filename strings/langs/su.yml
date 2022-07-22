@@ -75,7 +75,7 @@ admin_34 : "Gagal mendakan aliran ayeuna."
 
 # Start
 start_1 : "Halo\n\nPikeun bantosan atanapi nanaon, hubungi nu gaduh bot."
-start_2 : "Hai!!\n\n💡 {0} Abdi Diidinan Muter Musik sareng Pidio Sakur Dina Obrolan Sora Grup Atawa Saluran Anjeun\n\n📚Pencét Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Na."
+start_2 : "Hai!!\n\n💡 {0} Diidinan Muter Musik sareng Pidio Sakur Dina Obrolan Sora Grup Atawa Saluran Anjeun.\n\n📚Pencét Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Na."
 start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
 start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
 start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
@@ -142,8 +142,8 @@ cplay_5 : "Ngan Saluran anu dirojong."
 cplay_6 : "Anjeun kedah janten **Pamilik** saluran[{0}] pikeun ngahubungkeun éta sareng grup ieu.\n**Pamilik Saluran:** @{1}\n\nAtawa anjeun tiasa ngaitkeun grup anjeun ka saluran éta sareng cobian sambungkeun sareng `/channelplay connect`"
 
 #Play
-play_1 : "🔎 **Antosan Sakedap...**"
-play_2 : "**Modeu Puter Saluran**\n\n🔎 Ngolah Paménta... Antosan Sakedap...\n**Saluran Numbu:** {0}"
+play_1 : "🔎 **Ngaprosés...**"
+play_2 : "**Modeu Puter Saluran**\n\n🔎 Ngaprosés... Antosan Sakedap...\n**Saluran Numbu:** {0}"
 play_3 : "Gagal Ngolah Paménta!"
 play_4 : "🖇 **Ngan Admin**\nNgan Pamaké Admin sareng Auth anu tiasa maénkeun musik dina grup ieu.\n\nGanti modeu liwat /playmode sareng upami anjeun parantos janten admin, muatkeun deui admincache ngalangkungan /admincache"
 play_5 : "Gagal ngolah file audio.\n\nUkuran File Audio Kudu Kurang ti 100 mb"
