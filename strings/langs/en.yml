@@ -44,7 +44,7 @@ admin_5 : "**voicechat is already muted.**"
 admin_6 : "✅ __voicechat muted.__"
 admin_7 : "**music is already unmuted.**"
 admin_8 : "✅ __voicechat unmuted.__"
-admin_9 : "✅ Assistant has disconnected from voicechat."
+admin_9 : "✅ __Assistant has disconnected from voicechat.__"
 admin_10 : "✅ Voicechat Skipped by {}!. No More Music in Queue."
 admin_11 : "Error while changing stream to **{0}**\n\nPlease use /skip again."
 admin_12 : "Unable to skip to a specific track because of enabled loop play. Please disable loop play via `/loop disable` to use this feature."
@@ -160,7 +160,7 @@ play_15 : "**Live Stream Detected**\n\nSystems have detected your track link as 
 play_16 : "Failed to fetch track details. Try playing any other."
 play_17 : "Unable to play this type of spotify query!\n\nI can only play spotify tracks, albums, artists and playlists"
 play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an active voice chat going on in your group. **Force Play** stops the playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue."
-
+A_E_1   : "No-one listening.\n✅ __Assistant leave the voice chats.__"
 
 #Playlist
 playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
