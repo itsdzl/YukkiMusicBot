@@ -75,7 +75,8 @@ async def auto_end():
                 try:
                     await app.send_message(
                         chat_id,
-                        _["A_E_1"])
+                        "• **Nobody Listening**\n✅ __assistant leave the voice chats.__",
+                    )
                 except:
                     continue
 
