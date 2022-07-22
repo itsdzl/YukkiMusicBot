@@ -143,7 +143,7 @@ cplay_6 : "Anda harus menjadi **Pemilik** saluran[{0}] untuk menghubungkannya de
 
 #Play
 play_1 : "🔎 **Sedang memproses...**"
-play_2 : "**Mode Putar Saluran**\n\n🔎 Memproses... Harap Tunggu!\n**Saluran Tertaut:** {0}"
+play_2 : "**Mode Putar Saluran**\n\n🔎 Memproses... Harap Tunggu...\n**Saluran Tertaut:** {0}"
 play_3 : "Gagal Memproses kueri!"
 play_4 : "🖇 **Hanya Admin**\nHanya Admin dan Pengguna Auth yang dapat memutar musik di grup ini.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
 play_5 : "Gagal memproses file audio.\n\nUkuran File Audio Harus Kurang dari 100 mb"
