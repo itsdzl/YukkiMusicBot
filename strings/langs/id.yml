@@ -160,7 +160,7 @@ play_15 : "**Siaran Langsung Terdeteksi**\n\nSistem telah mendeteksi tautan trek
 play_16 : "Gagal mengambil detail trek. Coba mainkan yang lain."
 play_17 : "Tidak dapat memainkan jenis kueri spotify ini!\n\nSaya hanya dapat memutar trek, album, artis, dan daftar putar spotify"
 play_18 : "**Obrolan Suara Aktif Tidak Ditemukan**\n\nUntuk menggunakan fitur putar paksa, harus ada obrolan suara aktif yang berlangsung di grup Anda. **Force Play** menghentikan trek yang diputar di obrolan suara dan mulai memutar trek yang dicari."
-
+A_E_1   : "Tidak ada yang mendengarkan.\n✅ __Assisten meninggalkan obrolan suara.__"
 
 #Playlist
 playlist_1 : "**Penggunaan:** /play [Nama Musik atau Tautan Youtube atau Balas Audio]\n\nJika Anda ingin memutar Daftar Putar Server Bot! Tekan tombol di bawah ini."
