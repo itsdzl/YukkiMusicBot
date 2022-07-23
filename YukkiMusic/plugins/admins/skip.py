@@ -65,8 +65,7 @@ async def skip(cli, message: Message, _, chat_id):
                             if not check:
                                 try:
                                     await message.reply_text(
-                                        _["admin_10"].format(
-                                            message.from_user.first_name
+                                        _["admin_10"]
                                         )
                                     )
                                     await Yukki.stop_stream(chat_id)
@@ -93,7 +92,7 @@ async def skip(cli, message: Message, _, chat_id):
                     await auto_clean(popped)
             if not check:
                 await message.reply_text(
-                    _["admin_10"].format(message.from_user.first_name)
+                    _["admin_10"])
                 )
                 try:
                     return await Yukki.stop_stream(chat_id)
@@ -102,7 +101,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             try:
                 await message.reply_text(
-                    _["admin_10"].format(message.from_user.first_name)
+                    _["admin_10"])
                 )
                 return await Yukki.stop_stream(chat_id)
             except:
