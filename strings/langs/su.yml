@@ -74,8 +74,8 @@ admin_34 : "Gagal mendakan aliran ayeuna."
 #bot
 
 # Start
-start_1 : "Halo\n\nPikeun bantosan atanapi nanaon, hubungi nu gaduh bot."
-start_2 : "Hai!!\n\n💡 {0} Diidinan Muter Musik sareng Pidio Sakur Dina Obrolan Sora Grup Atawa Saluran Anjeun.\n\n📚Pencét Tombol Di handap Kanggo Nempo Kumaha Ngagunakeun Na."
+start_1 : "**Halo** !\n\nPikeun **bantosan** atanapi **nanaon**, hubungi nu gaduh bot."
+start_2 : "👋 **Hai** !\n\n📚 {0} **ngidinan Anjeun** muter **musik** sareng **pidio** sakur dina obrolan sora grup atawa saluran.\n\n🐣 Dzty : @halhebat"
 start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
 start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
 start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
