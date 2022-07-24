@@ -75,7 +75,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 
 # Start
 start_1 : "**Hai** !\n\nUntuk **bantuan** atau **apapun**, hubungi pemilik bot."
-start_2 : "👋 **Hai** !\n\n📚 {0} **memungkinkan anda** untuk memutar **musik** dan **video** di obrolan suara grup atau channel.\n\n🐣 Dzty : @halhebat"
+start_2 : "👋 **Hai** !\n\n💡 {0} **memungkinkan anda** untuk memutar **musik** dan **video** di obrolan suara grup atau channel.\n\n💭 Untuk melihat semua **Perintah** yang **Tersedia**, Tekan » 📚 **Tombol Perintah !**"
 start_3 : "Hai!\n\nTambahkan Asisten Secara Manual jika asisten tidak dapat bergabung secara otomatis.\nUsername Asisten:- @{1}\nID Asisten:- {2}"
 start_4 : "[{1}], Pemilik Bot {0} baru saja bergabung ke obrolan grup."
 start_5 : "Anggota dari {0} Pengguna Sudo[{1}] baru saja bergabung ke obrolan grup."
@@ -83,7 +83,7 @@ start_6 : "❗️ **Dibutuhkan Supergrup** ❗️\n\nHarap ubah **grup** Anda me
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan daftar hitam oleh Bot. Silakan minta pengguna sudo atau owner bot untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "💡 Klik tombol di bawah untuk petunjuk lengkap."
+help_1 : "» **tekan tombol di bawah untuk membaca penjelasan dan melihat daftar perintah yang tersedia !**"
 help_2 : "Klik tombol di bawah ini."
 
 # Settings
@@ -252,22 +252,22 @@ P_M_4 : ⏪ 30 Detik
 L_B_1 : "Lihat Lirik​​"
 
 # Start
-S_B_1 : "Perintah​"
-S_B_2 : "Pengaturan​"
+S_B_1 : "📚 Perintah​"
+S_B_2 : "⚙️ Pengaturan​"
 S_B_3 : "Grup​"
-S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
-S_B_5 : "✚ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴋᴇ ɢʀᴜᴘ​"
+S_B_4 : "💭 Channel​"
+S_B_5 : "✚ Tambahkan Ke Grup​"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
 S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
-S_B_8 : "• ᴍᴇɴᴜ •​​"
+S_B_8 : "📚 Perintah​​​"
 
 #Help 
-H_B_1 : "Perintah Admin"
-H_B_2 : "Perintah Memutar​"
-H_B_3 : "Perintah Bot"
-H_B_4 : "Tambahan​"
+H_B_1 : "• Admin"
+H_B_2 : "• Main​"
+H_B_3 : "• Bot"
+H_B_4 : "• Tambahan​"
 H_B_5 : "Tutup Menu"
-H_B_6 : "🌟"
+H_B_6 : "• ???"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -299,7 +299,7 @@ ST_B_2 : "Kualitas Video​"
 ST_B_3 : "Pengguna Auth​"
 ST_B_4 : "Dasbor​​"
 ST_B_5 : "Mode Pemutaran"
-ST_B_6 : "ʙᴀʜᴀsᴀ​"
+ST_B_6 : "🏳️‍🌈 Bahasa​"
 ST_B_7 : "Mode Clean"
 ST_B_8 : "{0} Audio Berkualitas Rendah"
 ST_B_9 : "{0} Audio Kualitas Sedang"
