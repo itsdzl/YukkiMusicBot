@@ -74,8 +74,8 @@ admin_34 : "Gagal mencari aliran saat ini."
 # Bot 
 
 # Start
-start_1 : "**Hai** !\n\nUntuk **bantuan** atau **apapun**, hubungi pemilik bot."
-start_2 : "👋 **Hai** !\n\n💡 {0} **memungkinkan anda** untuk memutar **musik** dan **video** di obrolan suara grup atau channel.\n\n💭 Untuk melihat semua **Perintah** yang **Tersedia**, Tekan » 📚 **Tombol Perintah !**"
+start_1 : "**Hai!**\n\nUntuk **bantuan** atau **apapun**, hubungi pemilik bot."
+start_2 : "👋 **Hai!**\n\n💡 **{0} memungkinkan anda** untuk memutar **musik** dan **video** di obrolan suara grup atau channel.\n\n💭 Untuk melihat semua **Perintah** yang **Tersedia**, Tekan Tombol » 📚 **Perintah**"
 start_3 : "Hai!\n\nTambahkan Asisten Secara Manual jika asisten tidak dapat bergabung secara otomatis.\nUsername Asisten:- @{1}\nID Asisten:- {2}"
 start_4 : "[{1}], Pemilik Bot {0} baru saja bergabung ke obrolan grup."
 start_5 : "Anggota dari {0} Pengguna Sudo[{1}] baru saja bergabung ke obrolan grup."
@@ -83,7 +83,7 @@ start_6 : "❗️ **Dibutuhkan Supergrup** ❗️\n\nHarap ubah **grup** Anda me
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan daftar hitam oleh Bot. Silakan minta pengguna sudo atau owner bot untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "» **tekan tombol di bawah untuk membaca penjelasan dan melihat daftar perintah yang tersedia !**"
+help_1 : "**Menu Dvotien Music**\n\n» __tekan tombol di bawah untuk membaca penjelasan dan melihat daftar perintah yang tersedia!__"
 help_2 : "**Klik tombol di bawah ini.**"
 
 # Settings
