@@ -160,7 +160,12 @@ play_15 : "**Live Stream Detected**\n\nSystems have detected your track link as 
 play_16 : "Failed to fetch track details. Try playing any other."
 play_17 : "Unable to play this type of spotify query!\n\nI can only play spotify tracks, albums, artists and playlists"
 play_18 : "**No Active Voice Chat Found**\n\nTo use force play, there must be an active voice chat going on in your group. **Force Play** stops the playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue."
-A_E_1   : "No-one listening.\n✅ __assistant leave the voice chats.__"
+
+# Auto End
+A_E_1   : "• **Nobody Listening.**\n✅ __assistant leave the voice chats.__"
+a_e_2   : "**No Active Voice Chat Found**\n\nPlease make sure group's voice chat is enabled. If already enabled, please end it and start voice chat again and if the problem continues, try /restart"
+a_e_3   : "**Assistant Already in Voice Chat**\n\nSystems have detected that assistant is already there in the voice chat, this issue generally comes when you play 2 queries together.\n\nIf assistant is not present in voice chat, please end voice chat and start voice chat again and if the problem continues, try /restart"
+a_e_4   : "**Telegram Server Error**\n\nTelegram is having some internal server problems, Please try playing again.\n\n If this problem keeps coming everytime, please end your voice chat and start fresh voice chat again."
 
 #Playlist
 playlist_1 : "**Usage:** /play [Music Name or Youtube Link or Reply to Audio]\n\nIf you want to play Bot's Server Playlist! Press the button below."
