@@ -73,12 +73,12 @@ async def auto_end():
                 except:
                     continue
                 try:
-                    language = await get_lang(original_chat_id)
+                    language = await get_lang(chat_id)
                     _ = get_string(language)
                     await app.send_message(
                         chat_id,
-                        (_["A_E_1"],
-                  )
+                        _["A_E_1"],
+                    )
                 except:
                     continue
 
