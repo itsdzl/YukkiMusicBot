@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "**Heyyoo** !\n\nFor any **assistance** or **help**, ask to owner bot."
-start_2 : "👋 **Heyyoo** !\n\n📚 {0} **allows you** to play **music** & **video** in your voice chats group or channel.\n\n🐣 Dzty : @halhebat"
+start_2 : "👋 **Heyyoo** !\n\n💡 {0} **allows you** to play **music** & **video** in your voice chats group or channel.\n\n💭 To see all **Available Command** just click » 📚 **Commands Button !**"
 start_3 : "Welcome To {0}\n\nplease make me admin with full permission.\n\nAdd Manually Assistant if assistant cannot auto join.\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "[{1}], Owner {0}'s just joined the group chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined the group chat."
@@ -83,8 +83,8 @@ start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** 
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "💡 Click the buttons below for detail command."
-help_2 : "Click the buttons below."
+help_1 : "» **press the button below to read the explanation and see the list of available commands !**"
+help_2 : "**Click the buttons below.**"
 
 # Settings
 setting_1 : "⚙️ **Music Bot Settings**\n\n🖇**Group:** {0}\n🔖**Group ID:** `{1}`\n\n💡**Choose the function buttons from below which you want to edit or change.**"
@@ -252,22 +252,22 @@ P_M_4 : ⏪ 30 Seconds
 L_B_1 : "Get Lyrics Now"
 
 # Start
-S_B_1 : "Commands"
-S_B_2 : "Settings"
+S_B_1 : "📚 Commands"
+S_B_2 : "⚙️ Settings"
 S_B_3 : "Group​"
-S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
-S_B_5 : "✚ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ"
+S_B_4 : "💭 Channel​"
+S_B_5 : "✚ Add Me To Your Group"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
 S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
-S_B_8 : "• ᴍᴇɴᴜ •"
+S_B_8 : "📚 Commands"
 
 #Help 
-H_B_1 : "Admin Command"
-H_B_2 : "Play Command"
-H_B_3 : "Bot Command"
-H_B_4 : "Extra Command"
+H_B_1 : "• Admin"
+H_B_2 : "• Play"
+H_B_3 : "• Bot"
+H_B_4 : "• Extra"
 H_B_5 : "Close Menu"
-H_B_6 : "🌟"
+H_B_6 : "• ???"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -299,7 +299,7 @@ ST_B_2 : "Video Quality​"
 ST_B_3 : "Auth Users​"
 ST_B_4 : "Dashboard​"
 ST_B_5 : "Play Mode"
-ST_B_6 : "ʟᴀɴɢᴜᴀɢᴇ"
+ST_B_6 : "🏳️‍🌈 Language"
 ST_B_7 : "Clean Mode"
 ST_B_8 : "{0} Low Quality Audio"
 ST_B_9 : "{0} Medium Quality Audio"
