@@ -67,7 +67,6 @@ async def skip(cli, message: Message, _, chat_id):
                                     await message.reply_text(
                                         _["admin_10"]
                                         )
-                                    )
                                     await Yukki.stop_stream(chat_id)
                                 except:
                                     return
@@ -93,7 +92,6 @@ async def skip(cli, message: Message, _, chat_id):
             if not check:
                 await message.reply_text(
                     _["admin_10"])
-                )
                 try:
                     return await Yukki.stop_stream(chat_id)
                 except:
@@ -102,7 +100,6 @@ async def skip(cli, message: Message, _, chat_id):
             try:
                 await message.reply_text(
                     _["admin_10"])
-                )
                 return await Yukki.stop_stream(chat_id)
             except:
                 return
