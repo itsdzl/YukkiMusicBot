@@ -77,7 +77,8 @@ async def auto_end():
                 try:
                     await app.send_message(
                         chat_id,
-                        (_["A_E_1"])
+                        (_["A_E_1"],
+                    )
                 except:
                     continue
 
