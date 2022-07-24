@@ -237,9 +237,9 @@ stream_4 : "**Started Streaming**\n\n**Title:** [{0}]({1})\n**Duration**: {2}\n*
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "• ᴄʟᴏsᴇ​"
-CLOSEMENU_BUTTON  : "• ᴄʟᴏsᴇ​"
-BACK_BUTTON : "« ʙᴀᴄᴋ"
+CLOSE_BUTTON  : "• Close​"
+CLOSEMENU_BUTTON  : "• Close​"
+BACK_BUTTON : "« Back"
 UNBAN_BUTTON : "Unban Assistant"
 
 # Panel Markup
