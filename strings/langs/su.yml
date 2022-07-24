@@ -75,7 +75,7 @@ admin_34 : "Gagal mendakan aliran ayeuna."
 
 # Start
 start_1 : "**Halo** !\n\nPikeun **bantosan** atanapi **nanaon**, hubungi nu gaduh bot."
-start_2 : "👋 **Hai** !\n\n📚 {0} **ngidinan Anjeun** muter **musik** sareng **pidio** sakur dina obrolan sora grup atawa saluran.\n\n🐣 Dzty : @halhebat"
+start_2 : "👋 **Hai** !\n\n💡 {0} **ngidinan Anjeun** muter **musik** sareng **pidio** sakur dina obrolan sora grup atawa saluran.\n\n💭 Pikeun ningali sadaya **Paréntah** nu **Sadia**, pencét » 📚 **Tombol Paréntah !**"
 start_3 : "Halo!\n\nTambahkeun Asisten Ku cara manual lamun asisten teu bisa otomatis gabung.\nAsisten Ngaran pamaké:- @{1}\nAssistantID:- {2}"
 start_4 : "[{1}], Pamilik Bot {0} nembé gabung dina obrolan grup."
 start_5 : "Anggota {0} Pamaké sudo[{1}] karék gabung dina obrolan grup."
@@ -83,8 +83,8 @@ start_6 : "❗️ **Supergroup Diperyogikeun** ️\n\nMangga gentos **group** an
 start_7 : "**Obrolan Daptar Hideung**\n\nObrolan anjeun geus di-blacklist ku Bot. Mangga ménta pamaké sudo atawa nu boga bot pikeun whitelist chat heula. Pariksa [Sudolist ti dieu]({0})"
 
 # Help
-help_1 : "💡 Klik tombol di handap ieu."
-help_2 : "Pencét tombol di handap."
+help_1 : "» **Pencét tombol di handap pikeun maca katerangan sareng ningali daptar paréntah anu sayogi !**"
+help_2 : "**Pencét tombol di handap.**"
 
 # Settings
 setting_1 : "⚙️ **Setélan Bot Musik**\n\n🖇**Grup:** {0}\n🔖**ID Grup:** `{1}`\n\n💡**Pilih konci fungsi ti handap nu rék diédit atawa dirobah.**"
@@ -252,22 +252,22 @@ P_M_4 : ⏪ 30 Detik
 L_B_1 : "Tinggal Lirik​​"
 
 # Start
-S_B_1 : "Paréntah​​"
-S_B_2 : "Setélan​​"
+S_B_1 : "📚 Paréntah​​"
+S_B_2 : "⚙️ Setélan​​"
 S_B_3 : "Grup​"
-S_B_4 : "ᴄʜᴀɴɴᴇʟ​"
-S_B_5 : "✚ ᴛᴀᴍʙᴀʜᴋᴇᴜɴ ᴋᴀ​ ɢʀᴜᴘ​"
+S_B_4 : "💭 Channel​"
+S_B_5 : "✚ Tambahkeun Ka Grup"
 S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
 S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
-S_B_8 : "• ᴍᴇɴᴜ •​​​"
+S_B_8 : "📚 Paréntah​​​​​"
 
 #Help 
-H_B_1 : "Paréntah Admin"
-H_B_2 : "Paréntah Maén​​"
-H_B_3 : "Paréntah Bot"
-H_B_4 : "Tambahan​"
+H_B_1 : "• Admin"
+H_B_2 : "• Maén​​"
+H_B_3 : "• Bot"
+H_B_4 : "• Tambahan​"
 H_B_5 : "Tutup Menu"
-H_B_6 : "🌟"
+H_B_6 : "• ???"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -297,7 +297,7 @@ ST_B_2 : "Kualitas Video​"
 ST_B_3 : "Pamaké Auth​"
 ST_B_4 : "Dasbor​​"
 ST_B_5 : "Mode Pamuteran"
-ST_B_6 : "ʙᴀʜᴀsᴀ​"
+ST_B_6 : "🏳️‍🌈 Bahasa​"
 ST_B_7 : "Mode Clean​"
 ST_B_8 : "{0} Audio Kualitas Lemah"
 ST_B_9 : "{0} Audio Kualitas Sedeng"
