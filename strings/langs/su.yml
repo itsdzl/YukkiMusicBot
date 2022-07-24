@@ -237,9 +237,9 @@ stream_4 : "**Mimitian Streaming**\n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
-CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
-BACK_BUTTON : "« ʙᴀʟɪᴋ​​"
+CLOSE_BUTTON  : "• Tutup​"
+CLOSEMENU_BUTTON  : "• Tutup​"
+BACK_BUTTON : "« Balik​​"
 UNBAN_BUTTON : "Unban Assisten​"
 
 # Panel Markup
