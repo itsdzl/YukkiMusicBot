@@ -242,9 +242,9 @@ stream_4 : "**Started Streaming**\n\n**Title:** [{0}]({1})\n**Duration**: {2}\n*
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "• Close​"
-CLOSEMENU_BUTTON  : "• Close​"
-BACK_BUTTON : "« Back"
+CLOSE_BUTTON  : "• ᴄʟᴏsᴇ​"
+CLOSEMENU_BUTTON  : "• ᴄʟᴏsᴇ​"
+BACK_BUTTON : "🔙 Back"
 UNBAN_BUTTON : "Unban Assistant"
 
 # Panel Markup
@@ -280,23 +280,23 @@ PM_B_2 : "InlineMarkup"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "ᴘʟᴀʏ ᴀᴜᴅɪᴏ"
-P_B_2 : "ᴘʟᴀʏ ᴠɪᴅᴇᴏ"
-P_B_3 : "sᴛᴀʀᴛ ʟɪᴠᴇ sᴛʀᴇᴀᴍ"
-P_B_4 : "ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛ"
+P_B_1 : "🎵 Play Audio"
+P_B_2 : "🎥 Play Video"
+P_B_3 : "Start Live Streaming"
+P_B_4 : "Play Playlist"
 
 #Playlist
-PL_B_1 : "ᴘʟᴀʏ ᴘʟᴀʏʟɪsᴛ"
-PL_B_2 : "ᴀᴅᴅ ᴛᴏ ᴜʀ ᴘʟᴀʏʟɪsᴛ"
-PL_B_3 : "• ᴍᴇɴᴜ •"
-PL_B_4 : "ᴘʟᴀʏ ᴍᴏᴅᴇ"
-PL_B_5 : "ᴅᴇʟ ᴡʜᴏʟᴇ ᴘʟᴀʏʟɪsᴛ​"
-PL_B_6 : "ᴅᴇʟᴇᴛᴇ ᴘʟᴀʏʟɪsᴛ​"
+PL_B_1 : "Play Playlist"
+PL_B_2 : "Add To Ur Playlist"
+PL_B_3 : "• ᴍᴇɴᴜ"
+PL_B_4 : "Play Mode"
+PL_B_5 : "Del Whole Playlist​"
+PL_B_6 : "Delete Playlist​"
 PL_B_7 : "❗️ Yes, I'm sure. Delete it"
-PL_B_8 : "ᴘʟᴀʏ ᴛᴏᴘ 10​"
-PL_B_9 : "ᴘʟᴀʏ ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs​"
-PL_B_10 : "ᴘʟᴀʏ ɢʀᴏᴜᴘ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs​"
-PL_B_11 : "ᴘʟᴀʏ ᴘᴇʀsᴏɴᴀʟ​ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs​"
+PL_B_8 : "Play Top 10​"
+PL_B_9 : "Play Global Top 10 Tracks​"
+PL_B_10 : "Play Group Top 10 Tracks​"
+PL_B_11 : "Play Personal​ Top 10 Tracks​"
 
 #Settings
 ST_B_1 : "Audio Quality​"
@@ -328,19 +328,19 @@ ST_B_26 : "Command Clean​"
 ST_B_27 : "Suggestion Mode"
 
 #Song
-SG_B_1 : "ᴏᴘᴇɴ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ​"
-SG_B_2 : "ɢᴇᴛ ᴀᴜᴅɪᴏ"
-SG_B_3 : "ɢᴇᴛ ᴠɪᴅᴇᴏ"
+SG_B_1 : "Click Here​"
+SG_B_2 : "🎵 Audio"
+SG_B_3 : "🎥 Video"
 
 #Stats
-SA_B_1 : "ᴛᴏᴘ 10 ᴄʜᴀᴛ"
-SA_B_2 : "ᴛᴏᴘ 10 ᴛʀᴀᴄᴋs"
-SA_B_3 : "ᴛᴏᴘ 10 ᴜsᴇʀs"
-SA_B_4 : "ᴛᴏᴘ 10 Here"
-SA_B_5 : "ᴏᴠᴇʀᴀʟʟ​ sᴛᴀᴛs"
-SA_B_6 : "ᴜsᴇʀ sᴛᴀᴛs​"
-SA_B_7 : "ɢʟᴏʙᴀʟ ᴛᴏᴘ 10 sᴛᴀᴛs​"
-SA_B_8 : "ʙᴏᴛ​ sᴛᴀᴛs"
+SA_B_1 : "Top 10 Chat"
+SA_B_2 : "Top 10 Track"
+SA_B_3 : "Top 10 User"
+SA_B_4 : "Top 10 Here"
+SA_B_5 : "Overall​ Stats"
+SA_B_6 : "User Stats​"
+SA_B_7 : "Global Top 10 Stats​"
+SA_B_8 : "Bot​ Stats"
 
 #Queue
 QU_B_1 : "📍 Queued List"
