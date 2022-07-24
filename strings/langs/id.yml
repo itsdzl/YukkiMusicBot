@@ -259,11 +259,11 @@ L_B_1 : "Lihat Lirik​​"
 # Start
 S_B_1 : "📚 Perintah​"
 S_B_2 : "⚙️ Pengaturan​"
-S_B_3 : "Grup​"
+S_B_3 : "👥 Grup​"
 S_B_4 : "💭 Channel​"
 S_B_5 : "✚ Tambahkan Ke Grup​"
-S_B_6 : "ɢɪᴛ ʀᴇᴘᴏ"
-S_B_7 : "ᴍʏ ᴏᴡɴᴇʀ"
+S_B_6 : "Git Repo"
+S_B_7 : "Owner"
 S_B_8 : "📚 Perintah​​​"
 
 #Help 
@@ -280,23 +280,23 @@ PM_B_2 : "InlineMarkup"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "ᴘᴜᴛᴀʀ​​​ ᴀᴜᴅɪᴏ"
-P_B_2 : "ᴘᴜᴛᴀʀ​​ ᴠɪᴅᴇᴏ"
-P_B_3 : "ᴘᴜᴛᴀʀ​ ʟɪᴠᴇ sᴛʀᴇᴀᴍ"
-P_B_4 : "ᴘᴜᴛᴀʀ​​ ᴘʟᴀʏʟɪsᴛ"
+P_B_1 : "🎵 Putar Audio"
+P_B_2 : "🎥 Putar video"
+P_B_3 : "Putar Live Streaming"
+P_B_4 : "Putar Playlist"
 
 #Playlist
-PL_B_1 : "ᴘᴜᴛᴀʀ​ ᴘʟᴀʏʟɪsᴛ"
-PL_B_2 : "ᴛᴀᴍʙᴀʜ ᴋᴇ​ ᴘʟᴀʏʟɪsᴛ​ᴍᴜ"
-PL_B_3 : "• ᴍᴇɴᴜ •"
-PL_B_4 : "ᴍᴏᴅᴇ ᴘᴇᴍᴜᴛᴀʀᴀɴ​"
-PL_B_5 : "ʀᴇsᴇᴛ​​ ᴘʟᴀʏʟɪsᴛ​"
-PL_B_6 : "ʜᴀᴘᴜs ᴘʟᴀʏʟɪsᴛ​"
+PL_B_1 : "Putar Playlist"
+PL_B_2 : "Tambah Ke Playlistmu"
+PL_B_3 : "☰ Menu"
+PL_B_4 : "Mode Pemutaran​"
+PL_B_5 : "Reset Playlist​"
+PL_B_6 : "Hapus Playlist​"
 PL_B_7 : "❗️ Ya saya yakin. Hapus"
-PL_B_8 : "ᴘᴜᴛᴀʀ ᴛᴏᴘ 10"
-PL_B_9 : "ᴘᴜᴛᴀʀ 10 ᴛᴏᴘ​ ɢʟᴏʙᴀʟ​"
-PL_B_10 : "ᴘᴜᴛᴀʀ 10 ᴛᴏᴘ ᴛʀᴇᴋ​​​"
-PL_B_11 : "ᴘᴜᴛᴀʀ 10 ᴛᴏᴘ ᴘʀɪʙᴀᴅɪ​​​"
+PL_B_8 : "Putar Top 10"
+PL_B_9 : "Putar 10 Top​ Global​"
+PL_B_10 : "Putar 10 Top Trek​​​"
+PL_B_11 : "Putar 10 Top Pribadi​​​"
 
 #Settings
 ST_B_1 : "Kualitas Audio​"
@@ -328,9 +328,9 @@ ST_B_26 : "Bersihkan Perintah​"
 ST_B_27 : "Mode Saran​"
 
 #Song
-SG_B_1 : "ᴋʟɪᴋ ᴅɪsɪɴɪ​​"
-SG_B_2 : "ᴀᴜᴅɪᴏ"
-SG_B_3 : "ᴠɪᴅᴇᴏ"
+SG_B_1 : "Klik Disini​​"
+SG_B_2 : "🎵 Audio"
+SG_B_3 : "🎥 Video"
 
 #Stats
 SA_B_1 : "10 obrolan teratas"
