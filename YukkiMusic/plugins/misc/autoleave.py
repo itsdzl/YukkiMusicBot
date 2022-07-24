@@ -56,8 +56,6 @@ asyncio.create_task(auto_leave())
 
 
 async def auto_end():
-    language = await get_lang(original_chat_id)
-    _ = get_string(language)
     while not await asyncio.sleep(5):
         if not await is_autoend():
             continue
@@ -75,10 +73,12 @@ async def auto_end():
                 except:
                     continue
                 try:
+                    language = await get_lang(original_chat_id)
+                    _ = get_string(language)
                     await app.send_message(
                         chat_id,
                         (_["A_E_1"],
-                    )
+                  )
                 except:
                     continue
 
