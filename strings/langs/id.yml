@@ -242,9 +242,9 @@ stream_4 : "**Mulai Streaming**\n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**Dim
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "• Tutup​"
-CLOSEMENU_BUTTON  : "• Tutup​"
-BACK_BUTTON : "« Kembali​"
+CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
+CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
+BACK_BUTTON : "🔙 Kembali​"
 UNBAN_BUTTON : "Unban Assisten​"
 
 # Panel Markup
@@ -288,7 +288,7 @@ P_B_4 : "Putar Playlist"
 #Playlist
 PL_B_1 : "Putar Playlist"
 PL_B_2 : "Tambah Ke Playlistmu"
-PL_B_3 : "☰ Menu"
+PL_B_3 : "• ᴍᴇɴᴜ"
 PL_B_4 : "Mode Pemutaran​"
 PL_B_5 : "Reset Playlist​"
 PL_B_6 : "Hapus Playlist​"
