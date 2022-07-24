@@ -262,6 +262,8 @@ class Call(PyTgCalls):
         link,
         video: Union[bool, str] = None,
     ):
+        language = await get_lang(original_chat_id)
+        _ = get_string(language)
         assistant = await group_assistant(self, chat_id)
         audio_stream_quality = await get_audio_bitrate(chat_id)
         video_stream_quality = await get_video_bitrate(chat_id)
@@ -294,17 +296,11 @@ class Call(PyTgCalls):
                     stream_type=StreamType().pulse_stream,
                 )
             except Exception as e:
-                raise AssistantErr(
-                    "**No Active Voice Chat Found**\n\nPlease make sure group's voice chat is enabled. If already enabled, please end it and start fresh voice chat again and if the problem continues, try /restart"
-                )
+                raise AssistantErr(_["a_e_2"])
         except AlreadyJoinedError:
-            raise AssistantErr(
-                "**Assistant Already in Voice Chat**\n\nSystems have detected that assistant is already there in the voice chat, this issue generally comes when you play 2 queries together.\n\nIf assistant is not present in voice chat, please end voice chat and start fresh voice chat again and if the  problem continues, try /restart"
-            )
+            raise AssistantErr(_["a_e_3"])
         except TelegramServerError:
-            raise AssistantErr(
-                "**Telegram Server Error**\n\nTelegram is having some internal server problems, Please try playing again.\n\n If this problem keeps coming everytime, please end your voice chat and start fresh voice chat again."
-            )
+            raise AssistantErr(_["a_e_4"])
         await add_active_chat(chat_id)
         await mute_off(chat_id)
         await music_on(chat_id)
