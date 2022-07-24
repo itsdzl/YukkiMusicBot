@@ -9,11 +9,11 @@
 
 import asyncio
 from datetime import datetime
-
 import config
+from strings import get_string
 from YukkiMusic import app
 from YukkiMusic.core.call import Yukki, autoend
-from YukkiMusic.utils.database import (get_client, is_active_chat,
+from YukkiMusic.utils.database import (get_client, get_lang, is_active_chat,
                                        is_autoend)
 
 
