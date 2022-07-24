@@ -84,7 +84,7 @@ start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan daftar hita
 
 # Help
 help_1 : "» **tekan tombol di bawah untuk membaca penjelasan dan melihat daftar perintah yang tersedia !**"
-help_2 : "Klik tombol di bawah ini."
+help_2 : "**Klik tombol di bawah ini.**"
 
 # Settings
 setting_1 : "⚙️ **Setelan Bot Musik**\n\n🖇**Grup:** {0}\n🔖**ID Grup:** `{1}`\n\n💡**Pilih tombol fungsi dari bawah yang Anda inginkan untuk mengedit atau mengubah.**"
