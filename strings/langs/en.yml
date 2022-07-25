@@ -74,8 +74,8 @@ admin_34 : "Failed to seek the current stream."
 # Bot 
 
 # Start
-start_1 : "**Heyyoo!**\n\nFor any **assistance** or **help**, ask to owner bot."
-start_2 : "**Heyyoo!**\n\n[💭](https://telegra.ph/file/ca0e2cdb83d9aed1e2547.jpg) **{0} allows you** to play **music** & **video** in your voice chats group or channel.\n\n• To see all **Available Command** click Button » **Commands**"
+start_1 : "**Hello!**\n\nFor any **assistance** or **help**, ask to owner bot."
+start_2 : "◉ **Hello!**\n\n[💭](https://telegra.ph/file/ca0e2cdb83d9aed1e2547.jpg) **{0}** allows you to play **music** & **video** in your voice chats **group** or **channel.**\n\n◉ To see all **Available Command** click **Buttons** » **Commands**"
 start_3 : "Welcome To {0}\n\nplease make me admin with full permission.\n\nAdd Manually Assistant if assistant cannot auto join.\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "[{1}], Owner {0}'s just joined the group chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined the group chat."
