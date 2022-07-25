@@ -75,7 +75,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 
 # Start
 start_1 : "**Haloo!**\n\nUntuk **bantuan** atau **apapun**, hubungi pemilik bot."
-start_2 : "◉ **Haloo!**\n\n[💭](https://telegra.ph/file/ca0e2cdb83d9aed1e2547.jpg) **{0}** memungkinkan anda untuk memutar **musik** & **video** di obrolan suara **grup** atau **channel.**\n\n• Untuk melihat daftar **Perintah** yang **Tersedia**, Tekan **Tombol** » **Perintah**"
+start_2 : "◉ **Haloo!**\n\n[💭](https://telegra.ph/file/7faa870be3f696258e15f.jpg) **{0}** memungkinkan anda untuk memutar **musik** & **video** di obrolan suara **grup** atau **channel.**\n\n◉ Untuk melihat daftar **Perintah** yang **Tersedia**, Tekan **Tombol** » **Perintah**"
 start_3 : "Hai!\n\nTambahkan Asisten Secara Manual jika asisten tidak dapat bergabung secara otomatis.\nUsername Asisten:- @{1}\nID Asisten:- {2}"
 start_4 : "[{1}], Pemilik Bot {0} baru saja bergabung ke obrolan grup."
 start_5 : "Anggota dari {0} Pengguna Sudo[{1}] baru saja bergabung ke obrolan grup."
@@ -83,7 +83,7 @@ start_6 : "❗️ **Dibutuhkan Supergrup** ❗️\n\nHarap ubah **grup** Anda me
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan daftar hitam oleh Bot. Silakan minta pengguna sudo atau owner bot untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "**Menu Dvotien Music**\n\n» __tekan tombol di bawah untuk membaca penjelasan dan melihat daftar perintah yang tersedia!__"
+help_1 : "**Dvotien Music Menu**\n\n» __tekan tombol di bawah untuk membaca penjelasan dan melihat daftar perintah yang tersedia!__"
 help_2 : "**Klik tombol di bawah ini.**"
 
 # Settings
