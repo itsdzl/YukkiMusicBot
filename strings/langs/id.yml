@@ -75,7 +75,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 
 # Start
 start_1 : "**Hai!**\n\nUntuk **bantuan** atau **apapun**, hubungi pemilik bot."
-start_2 : "👋 **Hai!**\n\n💡 **{0} memungkinkan anda** untuk memutar **musik** dan **video** di obrolan suara grup atau channel.\n\n💭 Untuk melihat semua **Perintah** yang **Tersedia**, Tekan Tombol » 📚 **Perintah**"
+start_2 : "👋🏻 **Hai!**\n\n💡 **{0} memungkinkan anda** untuk memutar **musik** dan **video** di obrolan suara grup atau channel.\n\n💭 Untuk melihat semua **Perintah** yang **Tersedia**, Tekan Tombol » **Perintah**"
 start_3 : "Hai!\n\nTambahkan Asisten Secara Manual jika asisten tidak dapat bergabung secara otomatis.\nUsername Asisten:- @{1}\nID Asisten:- {2}"
 start_4 : "[{1}], Pemilik Bot {0} baru saja bergabung ke obrolan grup."
 start_5 : "Anggota dari {0} Pengguna Sudo[{1}] baru saja bergabung ke obrolan grup."
@@ -244,7 +244,7 @@ stream_4 : "**Mulai Streaming**\n\n**Judul:** [{0}]({1})\n**Durasi**: {2}\n**Dim
 #General Buttons
 CLOSE_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
 CLOSEMENU_BUTTON  : "• ᴛᴜᴛᴜᴘ​"
-BACK_BUTTON : "🔙 Kembali​"
+BACK_BUTTON : "Kembali​"
 UNBAN_BUTTON : "Unban Assisten​"
 
 # Panel Markup
@@ -257,22 +257,22 @@ P_M_4 : ⏪ 30 Detik
 L_B_1 : "Lihat Lirik​​"
 
 # Start
-S_B_1 : "📚 Perintah​"
-S_B_2 : "⚙️ Pengaturan​"
-S_B_3 : "👥 Grup​"
-S_B_4 : "💭 Channel​"
-S_B_5 : "✚ Tambahkan Ke Grup​"
+S_B_1 : "Perintah​"
+S_B_2 : "Pengaturan​"
+S_B_3 : "Grup​"
+S_B_4 : "Channel​"
+S_B_5 : "Tambahkan Ke Grup​"
 S_B_6 : "Git Repo"
 S_B_7 : "Owner"
-S_B_8 : "📚 Perintah​​​"
+S_B_8 : "Perintah​​​"
 
 #Help 
-H_B_1 : "• Admin"
-H_B_2 : "• Main​"
-H_B_3 : "• Bot"
-H_B_4 : "• Tambahan​"
+H_B_1 : "Admin"
+H_B_2 : "Main​"
+H_B_3 : "Bot"
+H_B_4 : "Tambahan​"
 H_B_5 : "Tutup Menu"
-H_B_6 : "• ???"
+H_B_6 : "???"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -280,8 +280,8 @@ PM_B_2 : "InlineMarkup"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "🎵 Putar Audio"
-P_B_2 : "🎥 Putar video"
+P_B_1 : "Putar Audio"
+P_B_2 : "Putar video"
 P_B_3 : "Putar Live Streaming"
 P_B_4 : "Putar Playlist"
 
@@ -304,7 +304,7 @@ ST_B_2 : "Kualitas Video​"
 ST_B_3 : "Pengguna Auth​"
 ST_B_4 : "Dasbor​​"
 ST_B_5 : "Mode Pemutaran"
-ST_B_6 : "🏳️‍🌈 Bahasa​"
+ST_B_6 : "Bahasa​"
 ST_B_7 : "Mode Clean"
 ST_B_8 : "{0} Audio Berkualitas Rendah"
 ST_B_9 : "{0} Audio Kualitas Sedang"
@@ -329,8 +329,8 @@ ST_B_27 : "Mode Saran​"
 
 #Song
 SG_B_1 : "Klik Disini​​"
-SG_B_2 : "🎵 Audio"
-SG_B_3 : "🎥 Video"
+SG_B_2 : "Audio"
+SG_B_3 : "Video"
 
 #Stats
 SA_B_1 : "10 obrolan teratas"
@@ -343,7 +343,7 @@ SA_B_7 : "10 global teratas"
 SA_B_8 : "Statistik bot"
 
 #Queue
-QU_B_1 : "💡 Daftar Antrian"
+QU_B_1 : "📍 Daftar Antrian"
 QU_B_2 : "Dimainkan {0} dari {1} Menit"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
