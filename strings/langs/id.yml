@@ -75,7 +75,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 
 # Start
 start_1 : "**Hai!**\n\nUntuk **bantuan** atau **apapun**, hubungi pemilik bot."
-start_2 : "**Haloo!**\n\n**{0} memungkinkan anda** untuk memutar **musik** dan **video** di obrolan suara grup atau channel.\n\n• Untuk melihat daftar **Perintah** yang **Tersedia**, Tekan Tombol » **Perintah**"
+start_2 : "**Haloo!**\n\n[💭](https://telegra.ph/file/ca0e2cdb83d9aed1e2547.jpg) **{0} memungkinkan anda** untuk memutar **musik** dan **video** di obrolan suara grup atau channel.\n\n• Untuk melihat daftar **Perintah** yang **Tersedia**, Tekan Tombol » **Perintah**"
 start_3 : "Hai!\n\nTambahkan Asisten Secara Manual jika asisten tidak dapat bergabung secara otomatis.\nUsername Asisten:- @{1}\nID Asisten:- {2}"
 start_4 : "[{1}], Pemilik Bot {0} baru saja bergabung ke obrolan grup."
 start_5 : "Anggota dari {0} Pengguna Sudo[{1}] baru saja bergabung ke obrolan grup."
