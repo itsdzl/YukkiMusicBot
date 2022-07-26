@@ -24,7 +24,11 @@ async def inline_query_handler(client, query):
     if text.strip() == "":
         try:
             await client.answer_inline_query(
-                query.id, results=answer, cache_time=10
+                query.id,
+                results=answer,
+                switch_pm_text="Ketik judul youtube video...",
+                switch_pm_parameter="help",
+                cache_time=10
             )
         except:
             return
