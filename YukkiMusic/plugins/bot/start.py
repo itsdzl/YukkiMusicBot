@@ -204,11 +204,13 @@ async def start_comm(client, message: Message, _):
                     reply_markup=InlineKeyboardMarkup(out),
                 )
             except:
+                await message.reply_sticker("CAACAgUAAx0CQZS2QQABG-0ZYuA3VPTMXIOQ2OFKkfw_abg0LYEAAvICAAJVn9BUD7CVUBAFvkspBA")
                 await message.reply_text(
                     _["start_2"].format(config.MUSIC_BOT_NAME),
                     reply_markup=InlineKeyboardMarkup(out),
                 )
         else:
+            await message.reply_sticker("CAACAgUAAx0CQZS2QQABG-0ZYuA3VPTMXIOQ2OFKkfw_abg0LYEAAvICAAJVn9BUD7CVUBAFvkspBA")
             await message.reply_text(
                 _["start_2"].format(config.MUSIC_BOT_NAME),
                 reply_markup=InlineKeyboardMarkup(out),
