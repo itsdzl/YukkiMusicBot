@@ -32,8 +32,6 @@ async def inline(client: Client, query: InlineQuery):
                 switch_pm_parameter="help",
                 cache_time=0
             )
-        except:
-            return
     else:
         a = VideosSearch(text, limit=20)
         result = (await a.next()).get("result")
