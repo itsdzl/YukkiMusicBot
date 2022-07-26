@@ -7,6 +7,9 @@
 #
 # All rights reserved.
 
+from pyrogram import Client
+from pyrogram.types import InlineQuery, InlineQueryResultArticle, InputTextMessageContent
+
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,
                             InlineQueryResultPhoto)
@@ -17,10 +20,11 @@ from YukkiMusic import app
 
 
 @app.on_inline_query(~BANNED_USERS)
-async def inline_query_handler(client, query):
-    text = query.query.strip().lower()
+async def inline(client: Client, query: InlineQuery):
     answers = []
-    if text.strip() == "":
+    search_query = query.query.lower().strip().rstrip()
+
+    if search_query == "":
         try:
             await client.answer_inline_query(
                 query.id,
