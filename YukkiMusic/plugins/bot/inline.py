@@ -31,7 +31,7 @@ async def inline(client: Client, query: InlineQuery):
                 results=answer,
                 switch_pm_text="Berikan sesuatu untuk dicari...",
                 switch_pm_parameter="help",
-                cache_time=10
+                cache_time=0
             )
         except:
             return
