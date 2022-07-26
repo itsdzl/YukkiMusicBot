@@ -163,7 +163,7 @@ play_18 : "**Obrolan Suara Aktif Tidak Ditemukan**\n\nUntuk menggunakan fitur pu
 
 # Auto End
 A_E_1   : "• **Tidak ada yang mendengarkan.**\n✅ __asisten meninggalkan obrolan suara.__"
-a_e_2   : "**Obrolan Suara Tidak Ditemukan**\n\Pastikan obrolan suara grup diaktifkan. Jika sudah diaktifkan, harap akhiri dan mulai obrolan suara lagi dan jika masalah berlanjut, coba /restart"
+a_e_2   : "**Obrolan Suara Tidak Ditemukan**\n\nPastikan obrolan suara grup diaktifkan. Jika sudah diaktifkan, harap akhiri dan mulai obrolan suara lagi dan jika masalah berlanjut, coba /restart"
 a_e_3   : "**Asisten Sudah di Obrolan Suara**\n\nSistem telah mendeteksi bahwa asisten sudah ada di obrolan suara, masalah ini biasanya muncul saat Anda memainkan 2 kueri secara bersamaan.\n\nJika asisten tidak ada di obrolan suara, harap akhiri obrolan suara dan mulai obrolan suara lagi dan jika masalah berlanjut, coba /restart"
 a_e_4   : "**Server Telegram Error**\n\nTelegram mengalami beberapa masalah server internal, Silakan coba putar lagi.\n\nJika masalah tetap muncul, harap akhiri obrolan suara Anda dan mulai obrolan suara lagi."
 
