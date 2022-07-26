@@ -17,7 +17,7 @@ answer.extend(
         InlineQueryResultArticle(
             title="Youtube Search",
             description=f"Give YouTube music or video name.",
-            thumb_url="https://telegra.ph/file/c0a1c789def7b93f13745.png",
+            thumb_url="https://telegra.ph/file/a3866f5534588b97a9fc3.png",
             input_message_content=InputTextMessageContent("/help@dzmusicbot"),
         ),
     ]
