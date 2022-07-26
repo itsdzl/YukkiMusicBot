@@ -26,6 +26,8 @@ async def inline_query_handler(client, query):
             await client.answer_inline_query(
                 query.id,
                 results=answer,
+                switch_pm_text="Try searching using inline...",
+                switch_pm_parameter="help",
                 cache_time=10
             )
         except:
