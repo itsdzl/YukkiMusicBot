@@ -7,9 +7,6 @@
 #
 # All rights reserved.
 
-from pyrogram import Client
-from pyrogram.types import InlineQuery, InlineQueryResultArticle, InputTextMessageContent
-
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup,
                             InlineQueryResultPhoto)
@@ -17,21 +14,24 @@ from youtubesearchpython.__future__ import VideosSearch
 
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from YukkiMusic import app
+from YukkiMusic.utils.inlinequery import answer
 
 
 @app.on_inline_query(~BANNED_USERS)
-async def inline(client: Client, query: InlineQuery):
+async def inline_query_handler(client, query):
+    text = query.query.strip().lower()
     answers = []
-    search_query = query.query.lower().strip().rstrip()
-
-    if search_query == "":
+    if text.strip() == "":
+        try:
             await client.answer_inline_query(
                 query.id,
                 results=answer,
-                switch_pm_text="Berikan sesuatu untuk dicari...",
+                switch_pm_text="Ketik judul youtube video...",
                 switch_pm_parameter="help",
-                cache_time=0
+                cache_time=10
             )
+        except:
+            return
     else:
         a = VideosSearch(text, limit=20)
         result = (await a.next()).get("result")
@@ -51,7 +51,7 @@ async def inline(client: Client, query: InlineQuery):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Watch on Youtube",
+                            text="🎥 Watch on Youtube",
                             url=link,
                         )
                     ],
@@ -59,15 +59,12 @@ async def inline(client: Client, query: InlineQuery):
             )
             searched_text = f"""
 ✘ **Title:** [{title}]({link})
-
 ✘ **Duration:** {duration} Mins
 ✘ **Views:** `{views}`
 ✘ **Published Time:** {published}
 ✘ **Channel Name:** {channel}
 ✘ **Channel Link:** [Visit From Here]({channellink})
-
 __Reply with /play on this searched message to stream it on voice chat.__
-
 💭 ** Inline Search By {MUSIC_BOT_NAME} **"""
             answers.append(
                 InlineQueryResultPhoto(
