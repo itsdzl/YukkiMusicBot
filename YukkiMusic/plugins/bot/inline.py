@@ -25,7 +25,6 @@ async def inline(client: Client, query: InlineQuery):
     search_query = query.query.lower().strip().rstrip()
 
     if search_query == "":
-        try:
             await client.answer_inline_query(
                 query.id,
                 results=answer,
