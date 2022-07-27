@@ -32,9 +32,13 @@ shikhar@MacBook~ $ bash start
 
 <img src="https://telegra.ph/file/6b75b57da50ef1183fcdc.jpg" align="center">
 
+## 🖇️ Official Repo
+
+🔗 [@TheYukki](https://github.com/TeamYukki/Yukkimusicbot)
+
 ## 📑 Acknowledgement
 
-Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
+Special thanks to:
 
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 - [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
