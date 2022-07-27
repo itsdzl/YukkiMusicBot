@@ -34,7 +34,7 @@ shikhar@MacBook~ $ bash start
 
 ## 🖇️ Official Repo
 
-🔗 [@TheYukki](https://github.com/TeamYukki/Yukkimusicbot)
+# [YukkiMusicBot](https://github.com/TeamYukki/Yukkimusicbot)
 
 ## 📑 Acknowledgement
 
