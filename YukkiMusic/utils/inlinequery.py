@@ -15,10 +15,10 @@ answer = []
 answer.extend(
     [
         InlineQueryResultArticle(
-            title="Give Music or Video Name",
+            title="Youtube Search",
             description=f"Get YouTube video or music information from your query.",
             thumb_url="https://telegra.ph/file/a3866f5534588b97a9fc3.png",
-            input_message_content=InputTextMessageContent("/help@dzmusicbot"),
+            input_message_content=InputTextMessageContent("Give YouTube Music or Video Name."),
         ),
     ]
 )
