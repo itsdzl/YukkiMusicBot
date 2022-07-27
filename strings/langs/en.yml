@@ -83,7 +83,7 @@ start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** 
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "**Dvotien Music Menu.**\n\n» __press the button below to see all available commands!__"
+help_1 : "**Dvotion Music Menu.**\n\n» __press the button below to see all available commands!__"
 help_2 : "**Click the buttons below.**"
 
 # Settings
