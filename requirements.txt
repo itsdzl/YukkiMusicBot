@@ -24,3 +24,8 @@ telethon-tgcrypto
 youtube_search
 youtube-search-python
 yt-dlp
+python-arq
+telegram==0.0.1
+tgcrypto
+wget
+youtube-search
