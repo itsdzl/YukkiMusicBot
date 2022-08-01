@@ -80,7 +80,7 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (230, 560), f"Now Playing", fill="green4", font=name_font
+            (230, 560), f"Now Playing", fill="aqua", font=name_font
         )
         for line in para:
             if j == 1:
@@ -88,7 +88,7 @@ async def gen_thumb(videoid):
                 draw.text(
                     (230, 650),
                     f"{line}",
-                    fill="aqua",
+                    fill="white",
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
@@ -98,7 +98,7 @@ async def gen_thumb(videoid):
                 draw.text(
                     (230, 600),
                     f"{line}",
-                    fill="aqua",
+                    fill="white",
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
