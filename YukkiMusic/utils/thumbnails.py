@@ -85,7 +85,7 @@ async def gen_thumb(videoid):
                 draw.text(
                     (290, 650),
                     f"{line}",
-                    fill="white",
+                    fill="aqua",
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
@@ -95,7 +95,7 @@ async def gen_thumb(videoid):
                 draw.text(
                     (290, 600),
                     f"{line}",
-                    fill="white",
+                    fill="aqua",
                     stroke_width=1,
                     stroke_fill="white",
                     font=font,
