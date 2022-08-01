@@ -120,6 +120,7 @@ async def stream(
                     photo=img,
                     caption=_["stream_1"].format(
                         user_name,
+                        duration_min,
                         f"https://t.me/{app.username}?start=info_{vidid}",
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
@@ -201,6 +202,7 @@ async def stream(
                 photo=img,
                 caption=_["stream_1"].format(
                     user_name,
+                    duration_min,
                     f"https://t.me/{app.username}?start=info_{vidid}",
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
@@ -370,6 +372,7 @@ async def stream(
                 photo=img,
                 caption=_["stream_1"].format(
                     user_name,
+                    duration_min,
                     f"https://t.me/{app.username}?start=info_{vidid}",
                 ),
                 reply_markup=InlineKeyboardMarkup(button),
