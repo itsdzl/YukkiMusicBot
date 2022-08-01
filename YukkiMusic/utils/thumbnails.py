@@ -76,11 +76,11 @@ async def gen_thumb(videoid):
         font = ImageFont.truetype("assets/font2.ttf", 50)
         font2 = ImageFont.truetype("assets/font2.ttf", 70)
         arial = ImageFont.truetype("assets/font2.ttf", 30)
-        name_font = ImageFont.truetype("assets/font.ttf", 30)
+        name_font = ImageFont.truetype("assets/font.ttf", 35)
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (230, 550), f"Now Playing", fill="white", font=name_font
+            (230, 560), f"Now Playing", fill="white", font=name_font
         )
         for line in para:
             if j == 1:
