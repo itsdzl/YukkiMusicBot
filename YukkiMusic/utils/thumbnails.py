@@ -73,20 +73,20 @@ async def gen_thumb(videoid):
         logo.thumbnail((950, 550), Image.ANTIALIAS)
         background.paste(logo, (170, 20))
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("assets/font2.ttf", 55)
+        font = ImageFont.truetype("assets/font2.ttf", 40)
         font2 = ImageFont.truetype("assets/font2.ttf", 70)
         arial = ImageFont.truetype("assets/font2.ttf", 30)
         name_font = ImageFont.truetype("assets/font.ttf", 35)
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (230, 560), f"Now Playing", fill="aqua", font=name_font
+            (280, 560), f"Now Playing", fill="aqua", font=name_font
         )
         for line in para:
             if j == 1:
                 j += 1
                 draw.text(
-                    (230, 650),
+                    (280, 650),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
@@ -96,7 +96,7 @@ async def gen_thumb(videoid):
             if j == 0:
                 j += 1
                 draw.text(
-                    (230, 600),
+                    (280, 600),
                     f"{line}",
                     fill="white",
                     stroke_width=1,
