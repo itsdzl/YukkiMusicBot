@@ -73,7 +73,7 @@ async def gen_thumb(videoid):
         logo.thumbnail((950, 550), Image.ANTIALIAS)
         background.paste(logo, (170, 20))
         draw = ImageDraw.Draw(background)
-        font = ImageFont.truetype("assets/font2.ttf", 40)
+        font = ImageFont.truetype("assets/font2.ttf", 50)
         font2 = ImageFont.truetype("assets/font2.ttf", 70)
         arial = ImageFont.truetype("assets/font2.ttf", 30)
         name_font = ImageFont.truetype("assets/font.ttf", 30)
