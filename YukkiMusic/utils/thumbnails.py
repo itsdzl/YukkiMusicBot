@@ -1,4 +1,4 @@
-import os
+importir os
 import re
 import textwrap
 
@@ -61,8 +61,8 @@ async def gen_thumb(videoid):
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         bg = image2.filter(filter=ImageFilter.BoxBlur(30))
-        ec = ImageEnhance.Brightness(background)
-        bg = enhancer.enhance(0.6)
+        ec = ImageEnhance.Brightness(bg)
+        bg = ec.enhance(0.6)
         background = image2.filter(filter=ImageFilter.BoxBlur(0))
         enhancer = ImageEnhance.Brightness(background)
         background = enhancer.enhance(1)
