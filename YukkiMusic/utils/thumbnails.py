@@ -1,4 +1,4 @@
-importir os
+import os
 import re
 import textwrap
 
