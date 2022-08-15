@@ -75,7 +75,7 @@ async def gen_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (280, 580), f"Now Playing", fill="aqua", font=name_font
+            (280, 580), f"Now Playing", (192, 255, 163), font=name_font
         )
         for line in para:
             if j == 1:
