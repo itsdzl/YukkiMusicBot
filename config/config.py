@@ -16,6 +16,10 @@ from pyrogram import filters
 
 load_dotenv()
 
+
+# PREFIX
+COMMAND_PREFIXES = list(getenv('COMMAND_PREFIXES', '/ . _ = × !').split())
+
 # Get it from my.telegram.org
 API_ID = int(getenv("API_ID", ""))
 API_HASH = getenv("API_HASH")
