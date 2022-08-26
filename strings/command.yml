@@ -72,7 +72,7 @@ VIDEOLIMIT_COMMAND : ["set_video_limit"]
 VIDEOMODE_COMMAND : ["videomode"]
 
 #Mantenance
-MAINTENANCE_COMMAND : ["maintenance"]
+MAINTENANCE_COMMAND : ["mt"]
 LOGGER_COMMAND : ["logger"]
 
 #Heroku
