@@ -11,6 +11,9 @@ import os
 from typing import List
 from typing import Union
 
+import config
+from config import COMMAND_PREFIXES
+
 import yaml
 
 languages = {}
