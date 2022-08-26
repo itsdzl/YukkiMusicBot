@@ -21,7 +21,7 @@ commands = {}
 
 
 def get_command(dizz: Union[str, List[str]]):
-    return commands(dizz, COMMAND_PREFIXES)
+    return commands.get_command(dizz, COMMAND_PREFIXES)
 
 def get_string(lang: str):
     return languages[lang]
