@@ -9,6 +9,7 @@
 
 import os
 from typing import List
+from typing import Union
 
 import yaml
 
@@ -16,9 +17,8 @@ languages = {}
 commands = {}
 
 
-def get_command(value: str) -> List:
-    return commands["command"][value]
-
+def get_command(dizz: Union[str, List[str]]):
+    return commands(dizz, COMMAND_PREFIXES)
 
 def get_string(lang: str):
     return languages[lang]
