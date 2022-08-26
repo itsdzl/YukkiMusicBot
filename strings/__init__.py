@@ -20,8 +20,8 @@ languages = {}
 commands = {}
 
 
-def get_command(dizz: Union[str, List[str]]):
-    return commands.get_command(dizz, COMMAND_PREFIXES)
+def get_command(value: str) -> List:
+    return commands["command"][value]
 
 def get_string(lang: str):
     return languages[lang]
